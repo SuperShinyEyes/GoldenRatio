@@ -1,0 +1,25 @@
+ads_id,price,description,address,lat,lng
+42,1080.0,,"Espoo, Espoonlahti, Ulappakatu 1 F",60.1508655,24.6550839
+43,1253.0,,"Espoo, Matinkyla, Maailman-Matti 2",60.16242499999999,24.7399043
+44,1140.0,,"Helsinki, Puistola, Tapulikaupungintie 13",60.2767296,25.0345024
+45,3400.0,,"Espoo, Ruukinrannantie 14 D",60.20607219999999,24.8221744
+46,1240.0,,"Helsinki, Vanhankaupunginlahti, Jokisuunpolku 2 A",60.17332440000001,24.9410248
+47,1161.0,,"Espoo, Matinkyla, Matinniitynkuja 1",60.160032,24.7451076
+48,1370.0,,"Helsinki, Malminkartano, Luutnantinpolku 7 E 64",60.2461655,24.8672907
+49,1118.0,,"Espoo, Leppavaara, Linnatullinkatu 1",60.2189922,24.8083298
+50,920.0,,"Helsinki, Myllypuro, Karistimentie 1 D",60.2270439,25.0702
+51,1015.0,,"Espoo, Leppavaara, Leirikaari 24",60.2104578,24.8076937
+52,1027.0,,"Espoo, Matinkyla, Markkinakatu 4 A",60.16070869999999,24.7369593
+53,710.0,,"Helsinki, Lassila, Kaupintie 18 A",60.229142,24.8807684
+54,1280.0,,"Espoo, Soukka, Alakartanontie 6 B",60.1365026,24.6738126
+55,750.0,,"Helsinki, Sornainen, Kulmavuorenkatu 4 B",60.1883351,24.9648311
+56,890.0,,"Helsinki, Alppiharju, Aleksis Kiven katu 52-54 C",60.19200290000001,24.9456096
+57,844.0,,"Espoo, Kivenlahti, Kivenlahdenkatu 6",60.1544184,24.631855
+58,1360.0,,"Espoo, Tuomarila, Ratalaaksonkuja 5 C 11",60.2053665,24.6762937
+59,1090.0,,"Helsinki, Etela-Haaga, Laajasuontie 32 B 10",60.21959169999999,24.8959357
+60,870.0,,"Helsinki, Puotila, Klaavuntie 4",60.20937319999999,25.0986044
+61,2055.3,,"Helsinki, Jatkasaari, Saukonpaadenranta 4",60.1598466,24.9095515
+62,1290.3,,"Helsinki, Jatkasaari, Saukonpaadenranta 4",60.1598466,24.9095515
+63,784.42,,"Espoo, Tuomarila, Kulovalkeantie 22",60.20750049999999,24.6846329
+64,728.7,,"Espoo, Tuomarila, Kulovalkeantie 22",60.20750049999999,24.6846329
+65,1014.29,,"Espoo, Tuomarila, Kulovalkeankuja 2",60.2078836,24.6846481

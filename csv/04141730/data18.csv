@@ -1,0 +1,29 @@
+ads_id,price,description,address,lat,lng
+404,2200.0,,"Espoo, Nuottalahti, Nuottalahdentie 12-14",60.15113820000001,24.7306446
+405,1995.0,,"Espoo, Suurpelto, Piilipuuntie 14 A",60.1887535,24.7385371
+406,1639.0,,"Espoo, Nuottalahti, Nuottalahdentie 32",60.15102619999999,24.7268626
+407,825.0,,"Espoo, Iivisniemi, Norppatie 8",60.14805020000001,24.7005789
+408,881.0,,"Espoo, Matinkyla, Kala-Maija 3",60.1591653,24.7407618
+409,885.0,,"Espoo, Matinkyla, Nassakkakuja 4",60.1593877,24.7307741
+410,1152.0,,"Espoo, Ratamotie 6",60.23200989999999,24.7756945
+411,1251.0,,"Helsinki, Aurinkolahti, Jauhajankuja 2",60.17332440000001,24.9410248
+412,820.0,,"Espoo, Matinkyla, Akselinpolku 7",60.1566266,24.7479295
+413,700.0,,"Helsinki, Ullanlinna, Pietarinkatu 11",60.1573774,24.9476601
+414,870.0,,"Helsinki, Pitajanmaki, Strombergintie 8 D",60.2207202,24.8645993
+415,1390.0,,"Espoo, Kivenlahti, Meriusva 1 A",60.15488850000001,24.6349543
+416,720.0,,"Helsinki, Laakso, Mannerheimintie 55",60.18990030000001,24.9162085
+417,853.0,,"Espoo, Tuomarila, Kulovalkeantie 21",60.2076112,24.6851492
+418,980.0,,"Helsinki, Kruununhaka, Meritullinkatu 14 A",60.1725509,24.9581823
+419,1433.0,,"Espoo, Jarvenpera, Kulloonmaentie 24",60.24564279999999,24.7120867
+420,860.0,,"Helsinki, Viikki, Tilanhoitajankaari 12",60.2304128,25.0300532
+421,1157.0,,"Helsinki, Konala, Seltterikuja 5",60.2377939,24.847991
+422,1720.0,,"Helsinki, Jatkasaari, Tyynenmerenkatu 5",60.1579789,24.9214696
+423,2000.0,,"Espoo, Tuomarila, Joupinlaaksontie 9",60.2023762,24.6769872
+424,1750.0,,"Espoo, Kivenlahti, Maininkitie 12 c",60.153684,24.6472012
+425,1115.52,,"Helsinki, Mellunmaki, Laakavuorentie 7 C 56",60.2406996,25.1123147
+426,1150.0,,"Helsinki, Punavuori, Punavuorenkatu 14 A",60.1607027,24.9368905
+427,855.0,,"Helsinki, Herttoniemi, Sopulirinne 2",60.21525699999999,25.0436485
+428,817.0,,"Espoo, Ymmersta, Ullantorpantie 3",60.2053451,24.7040927
+429,1200.0,,"Espoo, Ymmersta, Ullantorpantie 3",60.2053451,24.7040927
+430,820.0,,"Espoo, Matinkyla, Rauhalanpuisto 4",60.1646021,24.7459057
+431,1084.0,,"Espoo, Jarvenpera, Aurorankuja 3",60.23738700000001,24.7032822

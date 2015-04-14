@@ -1,0 +1,29 @@
+ads_id,price,description,address,lat,lng
+376,832.0,,"Espoo, Suurpelto, Piilipuuntie 31",60.18954199999999,24.7378153
+377,1328.0,,"Helsinki, Etela-Haaga, Vanha Viertotie 9",60.2105514,24.8860446
+378,1700.0,,"Helsinki, Kamppi, Etelainen Rautatiekatu 16 A A",60.1683718,24.924984
+379,2685.0,,"Helsinki, Messeniuksenkatu 10",60.1883831,24.9130097
+380,2374.0,,"Helsinki, Kamppi, Fredrikinkatu 58",60.1705267,24.9282558
+381,1121.0,,"Helsinki, Myllypuro, Kivensilmankuja 1",60.22370480000001,25.0744308
+382,1800.0,,"Helsinki, Kalasatama, Sornaistenlaituri 3 E",60.1853336,24.9838338
+383,795.0,,"Helsinki, Puotinharju, Korsholmantie 8 A",60.2156698,25.0806632
+384,1348.0,,"Espoo, Matinkyla, Maailman-Matti 2",60.16242499999999,24.7399043
+385,690.0,,"Helsinki, Lauttasaari, Isokaari 11",60.15672060000001,24.8663749
+386,1150.0,,"Helsinki, Lauttasaari, Puistokaari 21",60.16152880000001,24.8602594
+387,1100.0,,"Helsinki, Laakso, Mannerheimintie 71 B",60.191297,24.9130475
+388,1090.0,,"Espoo, Iivisniemi, Iivisniementie 4 C",60.1497453,24.6947521
+389,1680.0,,"Helsinki, Tunturikatu 10 A",60.17415250000001,24.9255542
+390,1146.0,,"Helsinki, Itakeskus, Vanhanlinnantie 3",60.2144655,25.0878091
+391,1027.0,,"Espoo, Tapiola, Elosalamantie 3",60.1715391,24.8079678
+392,1007.0,,"Espoo, Tapiola, Elosalamantie 3",60.1715391,24.8079678
+393,1078.0,,"Espoo, Tapiola, Elosalamantie 3",60.1715391,24.8079678
+394,1000.0,,"Espoo, Lippajarvi, Honkavaarantie 5 F",60.22790260000001,24.7337084
+395,1200.0,,"Helsinki, Tali, Pitajanmaentie 20",60.2168617,24.8704763
+396,1000.0,,"Helsinki, Kruununhaka, Mariankatu 21",60.17315089999999,24.9565631
+397,1190.0,,"Helsinki, Etu-Toolo, Perhonkatu 1 B",60.1700051,24.9251762
+398,1220.0,,"Espoo, Leppavaara, Kyyhkysmaki 24",60.22894449999999,24.8063329
+399,1122.0,,"Espoo, Kilo, Nihtitorpankuja 5 A",60.2054911,24.6559001
+400,1633.63,,"Helsinki, Lauttasaari, Vattuniemenkuja 8",60.1533252,24.8822535
+401,840.0,,"Espoo, Tiistila, Kalastajanmaki 8",60.15547549999999,24.7314861
+402,850.0,,"Espoo, Kilo, Ruotutorppa 2",60.21757710000001,24.7745447
+403,1750.0,,"Espoo, Tapiola, Koivuviita 7",60.1837373,24.7819656

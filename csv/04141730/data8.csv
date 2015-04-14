@@ -1,0 +1,26 @@
+ads_id,price,description,address,lat,lng
+146,935.0,,"Helsinki, Punavuori, Annankatu 4 A",60.163154,24.9418764
+147,540.0,,"Helsinki, Punavuori, Fredrikinkatu 41 B",60.1651469,24.9360755
+148,950.0,,"Helsinki, Toolo, Stenbackinkatu 6 A",60.18922600000001,24.9149134
+149,1380.0,,"Helsinki, Kruununhaka, Unioninkatu 45 A",60.1753321,24.9505144
+150,870.0,,"Helsinki, Kulosaari, Kulosaaren puistotie 50",60.18955889999999,25.0106104
+151,1450.0,,"Helsinki, Kruununhaka, Vironkatu 7",60.1724513,24.9552271
+152,1050.0,,"Espoo, Otaniemi, Kivimiehentie 2",60.17986649999999,24.8287218
+153,675.0,,"Helsinki, Kallio, Vaasankatu 9 D",60.1884773,24.9591385
+154,950.0,,"Helsinki, Etela-Haaga, Artturi Kannistontie 8",60.2187258,24.8954768
+155,660.0,,"Helsinki, Lauttasaari, Lauttasaarentie 32",60.16036789999999,24.8799917
+156,828.0,,"Helsinki, Mellunkyla, Lupajantie 2",60.233229,25.1043706
+157,1180.0,,"Helsinki, Ita-Pasila, Sahkottajankatu 4",60.1976578,24.9393428
+158,1350.0,,"Helsinki, Aurinkolahti, Nukkeruusunkuja 3",60.2035109,25.1485098
+159,850.0,,"Helsinki, Oulunkyla, Makitorpantie 18-20 B",60.224645,24.9517451
+160,830.0,,"Helsinki, Kallio, Toinen Linja 15 A",60.1822967,24.9468675
+161,1300.0,,"Helsinki, Taka-Toolo, Eino Leinon katu 7",60.18381959999999,24.9191626
+162,850.0,,"Helsinki, Lauttasaari, Lauttasaarentie 24-26",60.1604444,24.8833004
+163,820.0,,"Helsinki, Kruununhaka, Liisankatu 9",60.1743065,24.9576907
+164,695.0,,"Espoo, Espoon keskus, Valakuja 6",60.2030538,24.6601914
+165,1360.0,,"Helsinki, Sornainen, Lintulahdenkatu 6",60.1842452,24.9613686
+166,1275.0,,"Helsinki, Hietalahti, Kalevankatu 56 a B",60.16253769999999,24.9246176
+167,670.0,,"Espoo, Bodom, Bodomintie 4",60.259886,24.6969654
+168,1465.0,,"Helsinki, Taka-Toolo, Stenbackinkatu 5",60.1893932,24.9150765
+169,1077.0,,"Helsinki, Vuosaari, Ulappasaarentie 4",60.21052989999999,25.137397
+170,750.0,,"Espoo, Kilo, Lansantie 23A A",60.212059,24.7675811
