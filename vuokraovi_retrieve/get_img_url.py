@@ -1,7 +1,7 @@
 from lxml import html
 import requests, csv, os, shutil, unicodedata, json, time, csv_lab
 
-csv_path = '/Users/young/datahackathon/vuokraovi_retrieve/no_decimal_imgage.csv'
+csv_path = 'no_decimal_imgage.csv'
 mockup_img_url = 'http://icons.iconarchive.com/icons/double-j-design/origami-colored-pencil/256/blue-home-icon.png'
 mockup_img_num = 0
 agency_missing = 0
@@ -38,7 +38,7 @@ for index, row in enumerate(csv_list):
 		print "(%d) link Saved!" % total
 
 
-csv_lab.modify_row_item(csv_list, [urls], 5, 'img_url.csv')
+csv_lab.modify_row_item(csv_list, [urls], 5, 'rpi.csv')
 		
 
 
