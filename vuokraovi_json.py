@@ -13,9 +13,8 @@ page_index = 1
 prices = []
 addresses = []
 geocoor = []    # [(latitude, longitude)] -> [(60.14334, 24.72134)]
-loop_count = 0
 error_count = 0
-total_count = 0
+total_item_num = 0
 
 def strip_string(string, type=None):
 	remove_these = '\r\n'
@@ -31,7 +30,6 @@ def strip_string(string, type=None):
 		string_stripped = string_stripped.replace(',', '.')
 		string_stripped = float(string_stripped.strip(' /k\r\n'))
 	else:
-		#string_stripped = ''.join(x for x in string_stripped if x not in remove_these)
 		string_stripped = string_stripped.translate(None, '\r\n')
 		string_stripped = ', '.join([x.strip() for x in string_stripped.split(',')])
 		
@@ -49,6 +47,7 @@ def process_string_list(raw, type=None):
 
 	return processed
 
+
 def get_geocoor(address):
 	global geocoor, error_count
 	success = False
@@ -58,11 +57,16 @@ def get_geocoor(address):
 		attempts += 1
 		r = requests.get(api + address)
 		parsed = json.loads(r.content)
+
 		try:
 			lat = parsed[u'results'][0][u'geometry'][u'location'][u'lat']
 			lng = parsed[u'results'][0][u'geometry'][u'location'][u'lng']
 		except IndexError as e:
 			print "(%d) Error getting geocoordinates: %s" % (attempts, e)
+			"""
+			This error is due to too fast requests from Google maps api.
+			Rest for two seconds and repeat twice more if failed.
+			"""
 			time.sleep(2)
 			if attempts < 2:
 				continue
@@ -70,6 +74,7 @@ def get_geocoor(address):
 				error_count += 1
 				print "(%d) 3 Attempts all failed" % (error_count)
 				print address
+				## If failed three times, add a mock up coordinate
 				geocoor.append((0, 0))
 		else:
 			geocoor.append((lat, lng))
@@ -92,8 +97,11 @@ def append_list(new_prices, new_addresses):
 			get_geocoor(address)
 
 def get_dict(index):
+	"""
+	Create a dict to insert either to json or csv.
+	"""
 	apt_dict = {}
-	apt_dict['ads_id'] = total_count + index + 1
+	apt_dict['ads_id'] = total_item_num + index + 1
 	apt_dict['price'] = prices[index]
 	apt_dict['description'] = ''
 	apt_dict['address'] = addresses[index]
@@ -109,8 +117,8 @@ def write_json(suffix):
 
 
 print "Scraping starts!"
+
 while True:
-	loop_count += 1
 	"""
 	Scrape until the new search result is the same as the old one.
 	"""
@@ -127,7 +135,6 @@ while True:
 		print "Ended the end of the database!"
 		break
 
-
 	## Eliminate the offers outside the region of our interest
 	append_list(new_prices, new_addresses)		
 
@@ -136,9 +143,9 @@ while True:
 	#print prices
 	#print addresses
 	#print geocoor
-	if loop_count % 20 == 0:
-		write_json(str(loop_count / 20))
-		total_count += len(prices)
+	if page_index % 20 == 0:
+		write_json(str(page_index / 20))
+		total_item_num += len(prices)
 		prices = []
 		addresses = []
 		geocoor = []

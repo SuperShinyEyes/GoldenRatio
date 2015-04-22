@@ -9,12 +9,11 @@ Instead, it will always show the last page.
 http://maps.google.com/maps/api/geocode/json?address=
 """
 url = 'http://www.vuokraovi.com/vuokra-asunnot/Uusimaa?page='
-page_index = 145
+page_index = 1
 
 prices = []
 addresses = []
 geocoor = []    # [(latitude, longitude)] -> [(60.14334, 24.72134)]
-loop_count = 0
 error_count = 0
 total_count = 0
 
@@ -55,6 +54,7 @@ def get_geocoor(address):
 	success = False
 	attempts = 0
 	api = 'http://maps.google.com/maps/api/geocode/json?address='
+	
 	while success != True and attempts < 3:
 		attempts += 1
 		r = requests.get(api + address)
@@ -63,6 +63,10 @@ def get_geocoor(address):
 			lat = parsed[u'results'][0][u'geometry'][u'location'][u'lat']
 			lng = parsed[u'results'][0][u'geometry'][u'location'][u'lng']
 		except IndexError as e:
+			"""
+			This error is due to too fast requests from Google maps api.
+			Rest for two seconds and repeat twice more if failed.
+			"""
 			print "(%d) Error getting geocoordinates: %s" % (attempts, e)
 			time.sleep(2)
 			if attempts < 2:
@@ -71,6 +75,7 @@ def get_geocoor(address):
 				error_count += 1
 				print "(%d) 3 Attempts all failed" % (error_count)
 				print address
+				## If failed three times, add a mock up coordinate
 				geocoor.append((0, 0))
 		else:
 			geocoor.append((lat, lng))
@@ -83,6 +88,7 @@ def append_list(new_prices, new_addresses):
 	prices += new_prices
 	for address in new_addresses:
 		get_geocoor(address)
+
 
 def filter_region(new_prices, new_addresses):
 	"""
@@ -102,6 +108,9 @@ def filter_region(new_prices, new_addresses):
 
 
 def get_dict(index):
+	"""
+	Create a dict to insert either to json or csv.
+	"""
 	apt_dict = {}
 	apt_dict['ads_id'] = total_count + index + 1
 	apt_dict['price'] = prices[index]
@@ -111,11 +120,13 @@ def get_dict(index):
 	apt_dict['lng'] = geocoor[index][1]
 	return apt_dict
 
+
 def write_json(suffix):
 	with open('data' + suffix + '.json', 'w') as f:
 		for i in range(len(addresses)):
 			dic = get_dict(i)
 			json.dump(dic, f)
+
 
 def write_csv(suffix):
 	with open('data' + suffix + '.csv', 'w') as f:
@@ -127,11 +138,14 @@ def write_csv(suffix):
 			writer.writerow(dic)
 
 
+
 print "Scraping starts!"
+
 while True:
-	loop_count += 1
 	"""
 	Scrape until the new search result is the same as the old one.
+	In other words, scrape until it reaches the last page.
+	vuokraovi.com doesn't throw an error even if the page number exceeds.
 	"""
 	r = requests.get(url + str(page_index))
 	tree = html.fromstring(r.text)
@@ -143,32 +157,35 @@ while True:
 	new_addresses = process_string_list(addresses_scraped)
 	print "number of item per page:", len(new_addresses)
 
+	## Eliminate the offers outside the region of our interest
 	new_prices, new_addresses = filter_region(new_prices, new_addresses)
 
-	print "total"
-	print addresses[-len(new_addresses):]
-	print "new"
-	print new_addresses 
+	#print "total"
+	#print addresses[-len(new_addresses):]
+	#print "new"
+	#print new_addresses 
 	if(addresses[-len(new_addresses):] == new_addresses):
+		write_csv(str(page_index / 20 + 1))
 		print "Ended the end of the database!"
-		write_csv(str(loop_count / 20 + 1))
 		break
 
-
-	## Eliminate the offers outside the region of our interest
-	append_list(new_prices, new_addresses)		
+	append_list(new_prices, new_addresses)
 
 	print "Scraped page", page_index
 	page_index += 1
-	#print prices
-	#print addresses
-	#print geocoor
-	if loop_count % 20 == 0:
-		write_csv(str(loop_count / 20))
+	
+	"""
+	Write to a csv file every 20 pages.
+	20 ads * 20 pages = 400 ads
+	In reality it will be less than 400, because 
+	regions outside Helsinki and Espoo will be eliminated
+	"""
+	if page_index % 20 == 0:
+		write_csv(str(page_index / 20))
 		total_count += len(prices)
-		prices = []
-		addresses = []
-		geocoor = []
+		del prices[:]
+		del addresses[:]
+		del geocoor[:]
 
 
 
