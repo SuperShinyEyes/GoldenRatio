@@ -1,5 +1,6 @@
 from lxml import html
 import requests, unicodedata, json, time, csv
+from bs4 import BeautifulSoup
 
 """
 Must add an index(integer) in the end. It usually has up to 470 pages
@@ -8,7 +9,7 @@ Instead, it will always show the last page.
 http://maps.google.com/maps/api/geocode/json?address=
 """
 url = 'http://www.vuokraovi.com/vuokra-asunnot/Uusimaa?page='
-page_index = 1
+page_index = 145
 
 prices = []
 addresses = []
@@ -77,19 +78,28 @@ def get_geocoor(address):
 
 
 def append_list(new_prices, new_addresses):
+	global addresses, prices
+	addresses += new_addresses
+	prices += new_prices
+	for address in new_addresses:
+		get_geocoor(address)
+
+def filter_region(new_prices, new_addresses):
 	"""
 	Add only the ones from Helsinki and Espoo
 	"""
-	global addresses, prices
+	filtered_prices = []
+	filtered_addresses = []
 	regions = ['helsinki,', 'espoo,']
 	for index, address in enumerate(new_addresses):
 		region = address.split()[0].lower()
-		#print index, region
+		
 		if region in regions:
-			#print 'true'
-			addresses.append(address)
-			prices.append(new_prices[index])
-			get_geocoor(address)
+			filtered_prices.append(new_prices[index])
+			filtered_addresses.append(address)
+
+	return filtered_prices, filtered_addresses
+
 
 def get_dict(index):
 	apt_dict = {}
@@ -131,9 +141,17 @@ while True:
 
 	new_prices = process_string_list(prices_scraped, 'number')
 	new_addresses = process_string_list(addresses_scraped)
+	print "number of item per page:", len(new_addresses)
 
+	new_prices, new_addresses = filter_region(new_prices, new_addresses)
+
+	print "total"
+	print addresses[-len(new_addresses):]
+	print "new"
+	print new_addresses 
 	if(addresses[-len(new_addresses):] == new_addresses):
 		print "Ended the end of the database!"
+		write_csv(str(loop_count / 20 + 1))
 		break
 
 
@@ -145,8 +163,8 @@ while True:
 	#print prices
 	#print addresses
 	#print geocoor
-	if loop_count % 2 == 0:
-		write_csv(str(loop_count / 2))
+	if loop_count % 20 == 0:
+		write_csv(str(loop_count / 20))
 		total_count += len(prices)
 		prices = []
 		addresses = []
