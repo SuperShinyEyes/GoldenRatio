@@ -1,6 +1,6 @@
 from lxml import html
-import requests, unicodedata, json, time, csv
-from bs4 import BeautifulSoup
+import requests, unicodedata, json, time, csv, os, errno
+from datetime import datetime
 
 """
 Must add an index(integer) in the end. It usually has up to 470 pages
@@ -16,6 +16,7 @@ addresses = []
 geocoor = []    # [(latitude, longitude)] -> [(60.14334, 24.72134)]
 error_count = 0
 total_count = 0
+now = datetime.now().strftime("%m%d%H%M")
 
 def strip_string(string, type=None):
 	remove_these = '\r\n'
@@ -128,8 +129,20 @@ def write_json(suffix):
 			json.dump(dic, f)
 
 
+def make_sure_path_exists(path):
+	try:
+		os.makedirs(path)
+	except OSError as e:
+		if e.errno != errno.EEXIST:
+			raise
+
+
 def write_csv(suffix):
-	with open('data' + suffix + '.csv', 'w') as f:
+	path = 'csv/' + now + "/"
+	make_sure_path_exists(path)
+
+	path += 'data' + suffix + '.csv'
+	with open(path, 'w') as f:
 		fieldnames = ['ads_id', 'price', 'description', 'address', 'lat', 'lng']
 		writer = csv.DictWriter(f, fieldnames=fieldnames)
 		writer.writeheader()
@@ -139,53 +152,55 @@ def write_csv(suffix):
 
 
 
-print "Scraping starts!"
+if __name__ == '__main__':
+	print "Scraping starts!"
 
-while True:
-	"""
-	Scrape until the new search result is the same as the old one.
-	In other words, scrape until it reaches the last page.
-	vuokraovi.com doesn't throw an error even if the page number exceeds.
-	"""
-	r = requests.get(url + str(page_index))
-	tree = html.fromstring(r.text)
+	while True:
+		"""
+		Scrape until the new search result is the same as the old one.
+		In other words, scrape until it reaches the last page.
+		vuokraovi.com doesn't throw an error even if the page number exceeds.
+		"""
+		r = requests.get(url + str(page_index))
+		tree = html.fromstring(r.text)
 
-	prices_scraped = tree.xpath('//li[@class="rent"]/text()')
-	addresses_scraped = tree.xpath('//span[@class="address"]/text()')
+		prices_scraped = tree.xpath('//li[@class="rent"]/text()')
+		addresses_scraped = tree.xpath('//span[@class="address"]/text()')
 
-	new_prices = process_string_list(prices_scraped, 'number')
-	new_addresses = process_string_list(addresses_scraped)
-	print "number of item per page:", len(new_addresses)
+		new_prices = process_string_list(prices_scraped, 'number')
+		new_addresses = process_string_list(addresses_scraped)
+		print "number of item per page:", len(new_addresses)
 
-	## Eliminate the offers outside the region of our interest
-	new_prices, new_addresses = filter_region(new_prices, new_addresses)
+		## Eliminate the offers outside the region of our interest
+		new_prices, new_addresses = filter_region(new_prices, new_addresses)
 
-	#print "total"
-	#print addresses[-len(new_addresses):]
-	#print "new"
-	#print new_addresses 
-	if(addresses[-len(new_addresses):] == new_addresses):
-		write_csv(str(page_index / 20 + 1))
-		print "Ended the end of the database!"
-		break
+		#print "total"
+		#print addresses[-len(new_addresses):]
+		#print "new"
+		#print new_addresses 
+		if(addresses[-len(new_addresses):] == new_addresses):
+			write_csv(str(page_index / 20 + 1))
+			print "Ended the end of the database!"
+			break
 
-	append_list(new_prices, new_addresses)
+		append_list(new_prices, new_addresses)
 
-	print "Scraped page", page_index
-	page_index += 1
-	
-	"""
-	Write to a csv file every 20 pages.
-	20 ads * 20 pages = 400 ads
-	In reality it will be less than 400, because 
-	regions outside Helsinki and Espoo will be eliminated
-	"""
-	if page_index % 20 == 0:
-		write_csv(str(page_index / 20))
-		total_count += len(prices)
-		del prices[:]
-		del addresses[:]
-		del geocoor[:]
+		print "Scraped page", page_index
+		page_index += 1
+		
+		"""
+		Write to a csv file every 20 pages.
+		20 ads * 20 pages = 400 ads
+		In reality it will be less than 400, because 
+		regions outside Helsinki and Espoo will be eliminated
+		"""
+		interval = 2
+		if page_index % interval == 0:
+			write_csv(str(page_index / interval))
+			total_count += len(prices)
+			del prices[:]
+			del addresses[:]
+			del geocoor[:]
 
 
 

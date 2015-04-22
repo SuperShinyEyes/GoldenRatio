@@ -1,0 +1,12 @@
+ads_id,price,description,address,lat,lng
+1,790.0,,"Helsinki, Sornainen, Paaskylanrinne 6 B",60.1878811,24.9662983
+2,895.0,,"Helsinki, Kallio, Kaarlenkatu 15 C",60.1865975,24.9514504
+3,1190.0,,"Helsinki, Kruununhaka, Mariankatu 19 A",60.1728569,24.9565773
+4,930.0,,"Helsinki, Taka-Toolo, Topeliuksenkatu 19 A",60.18409980000001,24.918036
+5,1150.0,,"Helsinki, Kamppi, Etelainen Rautatiekatu 16 a",60.1683718,24.924984
+6,1098.0,,"Helsinki, Kruununhaka, Meritullinkatu 13 A",60.1725615,24.9585419
+7,1590.0,,"Espoo, Olari, Aamutie 2",60.1694338,24.7436677
+8,1063.0,,"Helsinki, Lansi-Pasila, Palkkatilankatu 9",60.19666179999999,24.9237851
+9,674.0,,"Espoo, Soukka, Soukankaari 13",60.1408016,24.6673884
+10,763.0,,"Helsinki, Vuosaari, Leikosaarenkuja 4",60.202347,25.1386179
+11,778.0,,"Helsinki, Ita-Pasila, Jarrumiehenkatu 2",60.2011878,24.9405208
