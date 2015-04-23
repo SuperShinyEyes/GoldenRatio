@@ -16,6 +16,7 @@ addresses = []
 geocoor = []    # [(latitude, longitude)] -> [(60.14334, 24.72134)]
 error_count = 0
 total_count = 0
+getcoord_retrieve_failed = 0
 now = datetime.now().strftime("%m%d%H%M")
 
 def strip_string(string, type=None):
@@ -52,7 +53,7 @@ def process_string_list(raw, type=None):
 	return processed
 
 def get_geocoor(address):
-	global geocoor, error_count
+	global geocoor, error_count, getcoord_retrieve_failed
 	success = False
 	attempts = 0
 	api = 'http://maps.google.com/maps/api/geocode/json?address='

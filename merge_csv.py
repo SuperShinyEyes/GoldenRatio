@@ -4,23 +4,26 @@ path = 'csv/04141811/data'
 file_index = 1
 suffix = '.csv'
 
-new_index = 1
+new_index = 10
 new_path = 'csv/04231600/'
-
+header_written = False
 
 def merge_process(new, old):
+	global header_written
 	fieldnames = ['ads_id', 'price', 'description', 'address', 'lat', 'lng']
 	reader = csv.DictReader(old)
 	writer = csv.DictWriter(new, fieldnames=fieldnames)
 
-	writer.writeheader()
+	if not header_written:
+		writer.writeheader()
+		header_written = True
 	for row in reader:
 		writer.writerow(row)
 
 
 def merge_factory(new):
 	global file_index
-	for i in range(30):
+	for i in range(100):
 		try:
 			old = open(path + str(file_index) + suffix)
 		except IOError:
@@ -49,5 +52,6 @@ while True:
 			break
 		else:
 			new_index += 1
+			header_written = False
 
 	#with open(path + file_index + suffix) as f:

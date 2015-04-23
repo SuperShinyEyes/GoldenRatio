@@ -13,7 +13,6 @@ ads_id,price,description,address,lat,lng
 1489,1066.0,,"Helsinki, Pikku Huopalahti, Tilkankatu 6",0,0
 1490,979.0,,"Helsinki, Pitajanmaki, Piispantie 5",0,0
 1491,915.0,,"Espoo, Laajalahti, Kirvuntie 18 A-B",0,0
-ads_id,price,description,address,lat,lng
 1492,926.0,,"Espoo, Kauklahti, Hansatie 4",0,0
 1493,1060.0,,"Helsinki, Pakilantie 50",0,0
 1494,1606.0,,"Espoo, Suvikuja 3",0,0
@@ -40,7 +39,6 @@ ads_id,price,description,address,lat,lng
 1515,3287.0,,"Helsinki, Leonkatu 17",0,0
 1516,905.0,,"Helsinki, Herttoniemi, KERTTULINKUJA 3 D",0,0
 1517,1610.0,,"Espoo, Leppavaara, Ruusutorpantie 4",0,0
-ads_id,price,description,address,lat,lng
 1518,4000.0,,"Helsinki, Katajanokka, Pormestarinrinne 2",0,0
 1519,1258.0,,"Helsinki, Vilhonvuorenkatu 5",0,0
 1520,1161.0,,"Helsinki, Isonnevantie 6",0,0
@@ -64,7 +62,6 @@ ads_id,price,description,address,lat,lng
 1538,1161.0,,"Helsinki, Rusthollinpolku 6",0,0
 1539,1459.0,,"Helsinki, Vuosaari, Neitsytsaarentie 3",0,0
 1540,1461.0,,"Helsinki, Luutnantintie 3",0,0
-ads_id,price,description,address,lat,lng
 1541,1908.0,,"Helsinki, Radiokatu 13",0,0
 1542,1283.0,,"Espoo, Karakallio, Kalasaaksentie 3",0,0
 1543,1110.0,,"Helsinki, Koirasaarenrinne 3",0,0
@@ -97,7 +94,6 @@ ads_id,price,description,address,lat,lng
 1570,934.0,,"Espoo, Niittymaa, Malmiportti 4",0,0
 1571,1250.0,,"Helsinki, Etu-Toolo, Mechelininkatu 12-14",0,0
 1572,985.0,,"Espoo, Olari, Kuunsirppi 6",0,0
-ads_id,price,description,address,lat,lng
 1573,857.0,,"Helsinki, Matastie 5",0,0
 1574,2730.0,,"Espoo, Tapiola, Lansituulentie 8",0,0
 1575,1013.0,,"Espoo, Olari, Kuunsirppi 6",0,0
@@ -122,7 +118,6 @@ ads_id,price,description,address,lat,lng
 1594,1232.0,,"Helsinki, Pihlajamaki, Graniittitie 8",0,0
 1595,894.0,,"Espoo, Olari, Taysikuu 3",0,0
 1596,6900.0,,"Helsinki, Karhusaari, Karhurannankuja 6 B",0,0
-ads_id,price,description,address,lat,lng
 1597,1211.0,,"Helsinki, Makitorpantie 23",0,0
 1598,1035.0,,"Helsinki, Oulunkyla, Maapadontie 3",0,0
 1599,1148.0,,"Espoo, Tapiola, Elosalamantie 2",0,0
@@ -152,7 +147,6 @@ ads_id,price,description,address,lat,lng
 1623,886.0,,"Espoo, Lintuvaara, Kyyhkysmaki 9 C",0,0
 1624,1364.0,,"Helsinki, Kalevankatu 29",0,0
 1625,896.0,,"Espoo, Tapiola, Elosalamantie 2",0,0
-ads_id,price,description,address,lat,lng
 1626,774.0,,"Espoo, Kuninkainen, Herttuantie 4",0,0
 1627,953.0,,"Espoo, Kottaraisentie 7",0,0
 1628,796.0,,"Helsinki, Pohjois-Haaga, Ida Aalbergin tie 3 a",0,0
@@ -181,7 +175,6 @@ ads_id,price,description,address,lat,lng
 1651,511.0,,"Helsinki, Liusketie 16",0,0
 1652,989.0,,"Espoo, Vallikallio, Porarinkatu 2",0,0
 1653,824.0,,"Espoo, Soukka, Soukankaari 13",0,0
-ads_id,price,description,address,lat,lng
 1654,898.0,,"Helsinki, Etela-Haaga, Vanha viertotie 6",0,0
 1655,1323.0,,"Helsinki, Herttoniemi, Laivalahdenkaari 8",0,0
 1656,1087.0,,"Helsinki, Aurinkolahti, Aurinkotuulenkatu 6, Hellekuja 1",0,0
@@ -212,7 +205,6 @@ ads_id,price,description,address,lat,lng
 1681,1094.0,,"Espoo, Tapiola, Elosalamantie 2",0,0
 1682,1058.0,,"Helsinki, Pajamaki, Pajamaentie 6",0,0
 1683,896.0,,"Espoo, Tapiola, Elosalamantie 2",0,0
-ads_id,price,description,address,lat,lng
 1684,1495.0,,"Helsinki, Etu-Toolo, Pohjoinen Rautatiekatu 31",0,0
 1685,1458.0,,"Helsinki, Pikku Huopalahti, Taavetinaukio 3, Taavetinkuja 11",0,0
 1686,1090.0,,"Helsinki, Vuosaari, Pohjavedenkatu 10",0,0
@@ -239,7 +231,6 @@ ads_id,price,description,address,lat,lng
 1707,1183.0,,"Espoo, Vallikallio, Porarinkatu 2",0,0
 1708,1225.0,,"Helsinki, Kontula, Kaarenjalka 5",0,0
 1709,1048.0,,"Helsinki, Aurinkolahti, Kauniinilmankuja 5 C",0,0
-ads_id,price,description,address,lat,lng
 1710,955.0,,"Espoo, Leppavaara, Rummunlyojankatu 11 D-E",0,0
 1711,909.0,,"Espoo, Niittymaa, Malmiportti 4",0,0
 1712,945.0,,"Espoo, Soukka, Soukankuja 4",0,0
@@ -272,7 +263,6 @@ ads_id,price,description,address,lat,lng
 1739,848.0,,"Espoo, Tiistila, KALAONNENTIE 3 C",0,0
 1740,943.0,,"Helsinki, Pikku Huopalahti, Tilkankatu 6",0,0
 1741,797.0,,"Espoo, Tapiola, Elosalamantie 2",0,0
-ads_id,price,description,address,lat,lng
 1742,849.0,,"Espoo, Kauklahti, Hansatie 4",0,0
 1743,857.0,,"Espoo, Kilo, PUISTOPIHA 2",0,0
 1744,1146.0,,"Espoo, Leppavaara, Bertel Jungin aukio 4",0,0
@@ -296,7 +286,6 @@ ads_id,price,description,address,lat,lng
 1762,1495.0,,"Helsinki, Etu-Toolo, Pohjoinen Rautatiekatu 31",0,0
 1763,930.0,,"Helsinki, Vallila, Sturenkatu 47",0,0
 1764,1171.0,,"Espoo, Leppavaara, Zanseninkuja 6",0,0
-ads_id,price,description,address,lat,lng
 1765,1087.0,,"Espoo, Perkkaa, Perkkaantie 3 C",0,0
 1766,1395.0,,"Helsinki, Kamppi, Kalevankatu 53",0,0
 1767,1164.0,,"Helsinki, Vartiokyla, Arhotie 22",0,0
