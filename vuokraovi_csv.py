@@ -30,7 +30,8 @@ def strip_string(string, type=None):
 	if type == 'number':
 		string_stripped = string_stripped.replace(' ', '')
 		string_stripped = string_stripped.replace(',', '.')
-		string_stripped = float(string_stripped.strip(' /k\r\n'))
+		string_stripped = (string_stripped.strip(' \r\n'))
+		string_stripped = float(string_stripped.split('/')[0])
 	else:
 		#string_stripped = ''.join(x for x in string_stripped if x not in remove_these)
 		string_stripped = string_stripped.translate(None, '\r\n')
@@ -169,7 +170,7 @@ if __name__ == '__main__':
 
 		new_prices = process_string_list(prices_scraped, 'number')
 		new_addresses = process_string_list(addresses_scraped)
-		print "number of item per page:", len(new_addresses)
+		#print "number of item per page:", len(new_addresses)
 
 		## Eliminate the offers outside the region of our interest
 		new_prices, new_addresses = filter_region(new_prices, new_addresses)
