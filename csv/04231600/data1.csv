@@ -1,0 +1,747 @@
+ads_id,price,description,address,lat,lng
+1,745.0,,"Espoo, Leppavaara, Harakantie 20 B",60.2211762,24.8148
+2,750.0,,"Helsinki, Munkkiniemi, Huopalahdentie 7 A",60.1985462,24.8844154
+3,1795.0,,"Espoo, Mankkaa, Porttiniityntie 9 C",60.1976041,24.7683036
+4,690.0,,"Helsinki, Kallio, Pengerkatu 13a A",60.18449769999999,24.9582154
+5,1590.0,,"Espoo, Makkyla, Vahtirinne 9 B",60.22214649999999,24.8411573
+6,1300.0,,"Helsinki, Toolo, Savilankatu 2 D",60.1872692,24.9208296
+7,830.0,,"Espoo, Tapiola, Nallenpolku 2 C",60.1783331,24.819567
+8,625.0,,"Espoo, Lahderanta, Lahderanta 20 D",60.2429424,24.7412056
+9,890.0,,"Helsinki, Munkkivuori, Ulvilantie 19 a B",60.208015,24.864353
+10,1490.0,,"Espoo, Suurpelto, Piilipuuntie 21",60.1882945,24.7389331
+11,1130.0,,"Espoo, Suurpelto, Piilipuuntie 21",60.1882945,24.7389331
+ads_id,price,description,address,lat,lng
+12,865.0,,"Espoo, Suurpelto, Piilipuuntie 21",60.1882945,24.7389331
+13,992.0,,"Espoo, Suurpelto, Piilipuuntie 21",60.1882945,24.7389331
+14,1490.0,,"Espoo, Suurpelto, Piilipuuntie 21",60.1882945,24.7389331
+15,950.0,,"Espoo, Matinkyla, Matinniitynkuja 3 A",60.1598838,24.7443331
+16,750.0,,"Helsinki, Punavuori, Kankurinkatu 7",60.1596518,24.9367977
+17,1350.0,,"Helsinki, Ullanlinna, Korkeavuorenkatu 3 A 11",60.1600067,24.9467645
+18,790.0,,"Helsinki, Mellunmaki, Uotinmaentie 9 E",60.2364639,25.1154772
+19,1300.0,,"Helsinki, Ullanlinna, Kasarmikatu 4 C",60.1601233,24.9482894
+20,830.0,,"Espoo, Niittykumpu, Niittykatu 3 D",60.1689623,24.7607611
+21,890.0,,"Helsinki, Lauttasaari, Katajaharjuntie 6 C",60.16464089999999,24.8583758
+22,950.0,,"Helsinki, Toolo, Paivarinnankatu 5b A",60.1884505,24.9158352
+23,992.0,,"Espoo, Espoonlahti, Ulappakatu 1 F",60.1508655,24.6550839
+24,1800.0,,"Helsinki, Tammisalo, Mantypaadentie 17 B",60.194298,25.0690241
+25,994.98,,"Espoo, Leppavaara, Linnatullinkatu 1",60.2189922,24.8083298
+26,1273.0,,"Helsinki, Jatkasaari, Suezinkatu 3",60.1584061,24.9215332
+27,790.0,,"Helsinki, Sornainen, Paaskylanrinne 6 B",60.1878811,24.9662983
+ads_id,price,description,address,lat,lng
+28,895.0,,"Helsinki, Kallio, Kaarlenkatu 15 C",60.1865975,24.9514504
+29,930.0,,"Helsinki, Taka-Toolo, Topeliuksenkatu 19 A",60.18409980000001,24.918036
+30,1190.0,,"Helsinki, Kruununhaka, Mariankatu 19 A",60.1728569,24.9565773
+31,1150.0,,"Helsinki, Kamppi, Etelainen Rautatiekatu 16 a",60.1683718,24.924984
+32,1098.0,,"Helsinki, Kruununhaka, Meritullinkatu 13 A",60.1725615,24.9585419
+33,1590.0,,"Espoo, Olari, Aamutie 2",60.1694338,24.7436677
+34,778.0,,"Helsinki, Ita-Pasila, Jarrumiehenkatu 2",60.2011878,24.9405208
+35,1063.0,,"Helsinki, Lansi-Pasila, Palkkatilankatu 9",60.19666179999999,24.9237851
+36,763.0,,"Helsinki, Vuosaari, Leikosaarenkuja 4",60.202347,25.1386179
+37,674.0,,"Espoo, Soukka, Soukankaari 13",60.1408016,24.6673884
+38,900.0,,"Helsinki, Ullanlinna, Pietarinkatu 1 E",60.15813430000001,24.9520139
+39,888.0,,"Espoo, Espoonlahti, Ulappakatu 1 G",60.1508655,24.6550839
+40,940.0,,"Espoo, Espoonlahti, Ulappakatu 1 G",60.1508655,24.6550839
+41,1080.0,,"Espoo, Espoonlahti, Ulappakatu 1 F",60.1508655,24.6550839
+ads_id,price,description,address,lat,lng
+42,1080.0,,"Espoo, Espoonlahti, Ulappakatu 1 F",60.1508655,24.6550839
+43,1253.0,,"Espoo, Matinkyla, Maailman-Matti 2",60.16242499999999,24.7399043
+44,1140.0,,"Helsinki, Puistola, Tapulikaupungintie 13",60.2767296,25.0345024
+45,3400.0,,"Espoo, Ruukinrannantie 14 D",60.20607219999999,24.8221744
+46,1240.0,,"Helsinki, Vanhankaupunginlahti, Jokisuunpolku 2 A",60.17332440000001,24.9410248
+47,1161.0,,"Espoo, Matinkyla, Matinniitynkuja 1",60.160032,24.7451076
+48,1370.0,,"Helsinki, Malminkartano, Luutnantinpolku 7 E 64",60.2461655,24.8672907
+49,1118.0,,"Espoo, Leppavaara, Linnatullinkatu 1",60.2189922,24.8083298
+50,920.0,,"Helsinki, Myllypuro, Karistimentie 1 D",60.2270439,25.0702
+51,1015.0,,"Espoo, Leppavaara, Leirikaari 24",60.2104578,24.8076937
+52,1027.0,,"Espoo, Matinkyla, Markkinakatu 4 A",60.16070869999999,24.7369593
+53,710.0,,"Helsinki, Lassila, Kaupintie 18 A",60.229142,24.8807684
+54,1280.0,,"Espoo, Soukka, Alakartanontie 6 B",60.1365026,24.6738126
+55,750.0,,"Helsinki, Sornainen, Kulmavuorenkatu 4 B",60.1883351,24.9648311
+56,890.0,,"Helsinki, Alppiharju, Aleksis Kiven katu 52-54 C",60.19200290000001,24.9456096
+57,844.0,,"Espoo, Kivenlahti, Kivenlahdenkatu 6",60.1544184,24.631855
+58,1360.0,,"Espoo, Tuomarila, Ratalaaksonkuja 5 C 11",60.2053665,24.6762937
+59,1090.0,,"Helsinki, Etela-Haaga, Laajasuontie 32 B 10",60.21959169999999,24.8959357
+60,870.0,,"Helsinki, Puotila, Klaavuntie 4",60.20937319999999,25.0986044
+61,2055.3,,"Helsinki, Jatkasaari, Saukonpaadenranta 4",60.1598466,24.9095515
+62,1290.3,,"Helsinki, Jatkasaari, Saukonpaadenranta 4",60.1598466,24.9095515
+63,784.42,,"Espoo, Tuomarila, Kulovalkeantie 22",60.20750049999999,24.6846329
+64,728.7,,"Espoo, Tuomarila, Kulovalkeantie 22",60.20750049999999,24.6846329
+65,1014.29,,"Espoo, Tuomarila, Kulovalkeankuja 2",60.2078836,24.6846481
+ads_id,price,description,address,lat,lng
+66,1216.86,,"Helsinki, Konala, Ajomiehentie 8",60.2386403,24.8502881
+67,1031.39,,"Espoo, Tuomarila, Kulovalkeantie 22",60.20750049999999,24.6846329
+68,1698.0,,"Helsinki, Jatkasaari, Saukonpaadenranta",60.1593104,24.9079325
+69,1310.7,,"Helsinki, Jatkasaari, Saukonpaadenranta 4",60.1598466,24.9095515
+70,1204.0,,"Helsinki, Jatkasaari, Saukonpaadenranta 4",60.1598466,24.9095515
+71,1358.0,,"Helsinki, Konala, Ajomiehentie 8",60.2386403,24.8502881
+72,1449.42,,"Helsinki, Jatkasaari, Saukonpaadenranta 4",60.1598466,24.9095515
+73,771.0,,"Espoo, Tuomarila, Lyhtykuja 4",60.2061106,24.6744993
+74,1073.0,,"Helsinki, Puistola, Tapulikaupungintie 13",60.2767296,25.0345024
+75,677.0,,"Helsinki, Hermanni, Helminkatu 6 A",60.19794349999999,24.9635459
+76,780.0,,"Helsinki, Kamppi, Eerikinkatu 29 C",60.1651012,24.9290205
+77,700.0,,"Helsinki, Oulunkyla, Kylavoudintie 7 A",60.22439569999999,24.9528571
+78,810.0,,"Helsinki, Katajanokka, Luotsikatu 6 D",60.16782569999999,24.9643819
+79,1550.0,,"Helsinki, Munkkiniemi, Perustie 11",60.19801990000001,24.882095
+80,620.0,,"Espoo, Matinkyla, Matinkatu 20 D",60.15807400000001,24.7408252
+81,1276.0,,"Helsinki, Tapanila, Rajatie 6",60.2623822,25.0188003
+82,1210.0,,"Helsinki, Tali, Kutomotie 8a",60.2141236,24.8723259
+83,618.0,,"Espoo, Laajalahti, Heinjoenpolku 2 A-J",60.2035545,24.802476
+84,830.0,,"Helsinki, Malmi, Karviaismaki 9",60.2450471,25.0086682
+85,2500.0,,"Helsinki, Hietalahti, Hietalahdenranta 19 A",60.16114469999999,24.9258521
+86,665.0,,"Helsinki, Niemenmaki, Niemenmaentie 4 A",60.203829,24.8848858
+87,955.0,,"Helsinki, Arabianranta, Arabiankatu 6 D",60.2075376,24.9775788
+88,829.0,,"Helsinki, Laajasalo, Svanstrominkuja 9",60.1731817,25.0477383
+89,820.0,,"Espoo, Tapiola, Pohjantie 8 - 10 C",60.1769912,24.7993893
+90,680.0,,"Helsinki, Sornainen, Vilhonvuorenkuja 10 C",60.1871919,24.9624034
+91,780.0,,"Helsinki, Pihlajamaki, Vuolukiventie 4 B",60.2356499,25.0061056
+92,640.0,,"Helsinki, Roihuvuori, Keijukaistenpolku1",60.19537320000001,25.0587406
+93,1020.0,,"Helsinki, Hermanni, Sornaistenkatu 10",60.1907073,24.9698642
+ads_id,price,description,address,lat,lng
+94,1900.0,,"Helsinki, Etu-Toolo, Temppelikatu 9 A",60.17370589999999,24.9263375
+95,780.0,,"Helsinki, Mellunmaki, Yllastunturinkuja 1 A",60.2356741,25.1278232
+96,710.0,,"Helsinki, Taka-Toolo, Eino Leinon katu 2 B",60.1836453,24.9233224
+97,1140.0,,"Helsinki, Munkkisaari, Hernesaarenkatu 11",60.1566825,24.9319612
+98,3250.0,,"Helsinki, Purotie 3 G",60.21656600000001,24.8682545
+99,1195.0,,"Helsinki, Katajanokka, Katajanokanranta 1 D",60.16534249999999,24.9720796
+100,1650.0,,"Helsinki, Jollas, Harkalahdenkuja 9 A",60.15876830000001,25.0712033
+101,1070.0,,"Helsinki, Ullanlinna, Kasarmikatu 20 A",60.16242679999999,24.9479982
+102,845.0,,"Helsinki, Laajasalo, Ryytikuja 1-3 G",60.1836405,25.0528601
+103,940.0,,"Helsinki, Ullanlinna, Vuorimiehenkatu 31 A",60.1593493,24.9444932
+104,1450.0,,"Helsinki, Etu-Toolo, Caloniuksenkatu 3 B",60.17401629999999,24.9201519
+105,990.0,,"Espoo, Leppavaara, Leppavaarankatu 7",60.2171101,24.8102652
+106,1254.0,,"Espoo, Karvasmaki, Vanha Turuntie 69",60.2054911,24.6559001
+107,800.0,,"Espoo, Matinkyla, Markkinakatu 2",60.1603426,24.737268
+108,1650.0,,"Espoo, Koukkuniemi, Koukkuniemenkuja 2",60.1536163,24.7645914
+109,1250.0,,"Helsinki, Kamppi, Lonnrotinkatu 22 A",60.1646482,24.9339688
+110,700.0,,"Helsinki, Kamppi, Malminrinne 2 A",60.1667043,24.9306071
+111,835.0,,"Helsinki, Malmi, Markkinatie 15 A 7",60.250651,25.0014436
+112,650.0,,"Helsinki, Taka-Toolo, Stenbackinkatu 3 A",60.1895422,24.9153276
+113,1195.0,,"Helsinki, Ullanlinna, Pietarinkatu 16 A",60.15702669999999,24.9462718
+114,750.0,,"Helsinki, Puistola, Suuntimotie 6",60.27219520000001,25.0447125
+115,1090.0,,"Helsinki, Lauttasaari, Sarkiniementie 17 B",60.1523981,24.87717
+116,1199.0,,"Helsinki, Ullanlinna, Vuorimiehenkatu 23b B",60.1596305,24.9480234
+117,940.0,,"Helsinki, Taka-Toolo, Mannerheimintie 94 A",60.1879702,24.9185109
+118,820.0,,"Helsinki, Taka-Toolo, Mannerheimintie 94 A",60.1879702,24.9185109
+119,850.0,,"Helsinki, Katajanokka, Amiraalinkatu 4 C",60.16675439999999,24.973191
+120,1190.0,,"Helsinki, Myllypuro, Kiviparintie 2",60.22455189999999,25.0745293
+ads_id,price,description,address,lat,lng
+121,1190.0,,"Helsinki, Myllypuro, Kiviparintie 2",60.22455189999999,25.0745293
+122,1289.0,,"Helsinki, Jatkasaari, Kap Hornin katu 8",60.15762050000001,24.9203444
+123,2700.0,,"Helsinki, Kamppi, Lonnrotinkatu 22 A",60.1646482,24.9339688
+124,720.0,,"Helsinki, Hakaniemi, Sornaisten rantatie 1B",60.17332440000001,24.9410248
+125,1050.0,,"Helsinki, Kalasatama, Capellan puistotie 6",60.1842406,24.982403
+126,984.0,,"Helsinki, Kamppi, Eerikinkatu 41",60.1638959,24.9255666
+127,880.0,,"Helsinki, Vallila, Eurantie 12 A",60.1960354,24.9621233
+128,2072.0,,"Helsinki, Vahantuvantie 6",60.23280200000001,24.8494655
+129,1418.0,,"Espoo, Menninkaisentie 5",60.1799905,24.8099659
+130,974.0,,"Helsinki, Kamppi, Eerikinkatu 41",60.1638959,24.9255666
+131,888.0,,"Helsinki, Kamppi, Eerikinkatu 41",60.1638959,24.9255666
+132,1300.0,,"Helsinki, Kamppi, Eerikinkatu 41",60.1638959,24.9255666
+133,1410.0,,"Helsinki, Kamppi, Eerikinkatu 41",60.1638959,24.9255666
+134,1338.0,,"Helsinki, Kamppi, Eerikinkatu 41",60.1638959,24.9255666
+135,1205.0,,"Helsinki, Sornainen, Paaskylanrinne 8 A",60.1881862,24.9666316
+136,780.0,,"Helsinki, Niemenmaki, Niemenmaentie 10 A",60.2055539,24.8833344
+137,960.0,,"Helsinki, Ruoholahti, Selkamerenkatu 16 B",60.1603658,24.9170359
+138,981.07,,"Espoo, Tuomarila, Tuomarilankatu 1",60.20516540000001,24.6839006
+139,2100.0,,"Helsinki, Etu-Toolo, Tunturikatu 11 B",60.1743475,24.9254216
+140,830.0,,"Helsinki, Lauttasaari, Tallbergin Puistotie 14",60.1577553,24.8764969
+141,930.0,,"Helsinki, Herttoniemi, Hitsaajankatu 7",60.19234220000001,25.0280238
+142,670.0,,"Helsinki, Pajamaki, Poutamaentie 13 C",60.2189951,24.8527589
+143,850.0,,"Helsinki, Taka-Toolo, Valhallankatu 5 A",60.18402289999999,24.913225
+144,1571.0,,"Helsinki, Merihaka, Haapaniemenkatu 11",60.17895480000001,24.9603821
+145,470.0,,"Helsinki, Kumpula, Koskelantie 37",60.21424520000001,24.9619106
+ads_id,price,description,address,lat,lng
+1783,883.0,,"Espoo, Kilo, PUISTOPIHA 2",0,0
+1784,1092.0,,"Espoo, Lintuvaara, Kyyhkysmaki 9 B",0,0
+1785,1819.0,,"Espoo, Soukka, Kaskilaaksontie 3",0,0
+1786,1124.0,,"Espoo, Tuomarila, Ratavallintie 8 B",0,0
+ads_id,price,description,address,lat,lng
+171,2679.0,,"Helsinki, Munkkiniemi, Kadetintie 6",60.1955778,24.8788576
+172,850.0,,"Helsinki, Kamppi, Kalevankatu 52",60.1631979,24.9265157
+173,1215.0,,"Espoo, Kaitaa, Jarvitorppa 4",60.1479989,24.671198
+174,2000.0,,"Helsinki, Katajanokka, Luotsikatu 12 A",60.1678666,24.966363
+175,1008.0,,"Helsinki, Etela-Haaga, Hellemaenpolku 10",60.21140369999999,24.8862775
+176,976.19,,"Espoo, Espoon keskus, Espoonaukio 7 A 8",60.2064472,24.6591104
+177,798.71,,"Helsinki, Vuosaari, Nukkeruusunkuja 4 B 40",60.2034324,25.1480954
+178,928.51,,"Helsinki, Herttoniemenranta, Niittaajankatu 1 A 5",60.1909655,25.0254333
+179,739.0,,"Helsinki, Malminkartano, Pihkatie 6 C 19",60.2523235,24.8560735
+180,805.0,,"Helsinki, Reimarla, Piispantie 2",60.2296223,24.8469396
+181,997.0,,"Helsinki, Malminkartano, Pihkatie 6 F 55",60.2523235,24.8560735
+182,2200.0,,"Helsinki, Tapanila, Kotinummentie 66",60.2667836,25.0149295
+183,1190.0,,"Helsinki, Etu-Toolo, Etelainen Hesperiankatu 28 C",60.1762483,24.9212408
+184,1190.0,,"Helsinki, Haapalahdenkatu 8 B",60.2055231,24.8902625
+185,740.0,,"Espoo, Tapiola, Itatuulenkuja 1 B",60.1738671,24.8031969
+186,840.0,,"Helsinki, Munkkivuori, Ulvilantie 19b A",60.208015,24.864353
+187,916.0,,"Helsinki, Konala, Ristipellontie 6",60.2386042,24.8519191
+188,1218.0,,"Espoo, Suurpelto, Piilipuuntie 17",60.1874631,24.7393415
+189,1064.0,,"Espoo, Suurpelto, Piilipuuntie 17",60.1874631,24.7393415
+190,880.0,,"Espoo, Matinkyla, Matinraitti 9 F",60.15783579999999,24.7465786
+191,4900.0,,"Espoo, Koukkuniemi, Koukkuniemenkuja 1",60.15346580000001,24.7643953
+192,879.0,,"Espoo, Suurpelto, Piilipuuntie 17",60.1874631,24.7393415
+193,819.0,,"Espoo, Suurpelto, Piilipuuntie 17",60.1874631,24.7393415
+194,959.0,,"Espoo, Suurpelto, Piilipuuntie 17",60.1874631,24.7393415
+195,969.0,,"Espoo, Suurpelto, Piilipuuntie 17",60.1874631,24.7393415
+196,1010.0,,"Espoo, Suurpelto, Piilipuuntie 17",60.1874631,24.7393415
+197,998.0,,"Espoo, Suurpelto, Piilipuuntie 17",60.1874631,24.7393415
+198,969.0,,"Espoo, Suurpelto, Piilipuuntie 17",60.1874631,24.7393415
+ads_id,price,description,address,lat,lng
+199,750.0,,"Helsinki, Lauttasaari, Katajaharjuntie 19 B",60.1675027,24.857637
+200,850.0,,"Espoo, Matinkyla, Piispanpelto 10 A",60.1661368,24.7393496
+201,750.0,,"Helsinki, Malminkartano, Rukkilantie 2 E",60.2517088,24.8654902
+202,940.0,,"Helsinki, Kamppi, Uudenmaankatu 31 D",60.16319470000001,24.9367273
+203,769.0,,"Espoo, Suurpelto, Piilipuuntie 17",60.1874631,24.7393415
+204,820.0,,"Helsinki, Punavuori, Punavuorenkatu 15 A",60.16049169999999,24.9356415
+205,1470.0,,"Espoo, Iivisniemi, Arttelikuja 1",60.1457643,24.7036174
+206,1650.0,,"Espoo, Malminmaki, Malminmaentie 5",60.1811079,24.6839356
+207,2450.0,,"Espoo, Haukilahti, Lahnatie 7",60.16418669999999,24.7667875
+208,1814.0,,"Helsinki, Katajanokka, Linnankatu 11",60.1654332,24.9708428
+209,2414.0,,"Helsinki, Lehtisaari, Lehtisaarentie 14",60.1773462,24.8535154
+210,981.0,,"Espoo, Laajalahti, Heinjoenpolku 2 K-O",60.2035545,24.802476
+211,1231.0,,"Espoo, Leppavaara, Perkkaankuja 3",60.2166728,24.8235791
+212,2072.0,,"Helsinki, Kasityolaisentie 4-10",60.2732085,25.033676
+213,2077.0,,"Helsinki, Risupadontie 6",60.2332527,24.9464955
+214,2330.0,,"Espoo, Soukka, Soukantie 14",60.14138149999999,24.6711663
+215,2274.0,,"Helsinki, Luutnantintie 3",60.248621,24.8646033
+216,4250.0,,"Helsinki, Kluuvi, Vuorikatu 8 B",60.1706243,24.947406
+217,2300.0,,"Helsinki, Marjaniemi, Marjaniementie 32 A",60.2034439,25.0859685
+218,1100.0,,"Espoo, Lahderanta, Lahderanta 22",60.2416358,24.7425319
+219,1640.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+220,1307.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+221,1351.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+222,1257.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+223,1301.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+224,1549.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+225,1363.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+226,1275.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+227,1320.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+228,1564.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+229,1376.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+ads_id,price,description,address,lat,lng
+230,1281.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+231,1326.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+232,1579.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+233,1389.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+234,1345.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+235,1608.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+236,1200.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+237,1200.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+238,1640.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+239,1830.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+240,1297.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+241,1739.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+242,1247.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+243,1325.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+244,1755.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+245,1260.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+246,1338.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+247,1772.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+248,1351.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+249,1788.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+250,1284.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+251,1364.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+252,1804.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+253,1653.0,,"Helsinki, Kalasatama, Capellan puistotie 4",60.1842406,24.982403
+254,868.29,,"Espoo, Ymmersta, Ullantorpantie 8 A",60.20465910000001,24.7055545
+255,2800.0,,"Helsinki, Kamppi, Kalevankatu 40 A",60.164753,24.9309354
+256,1950.0,,"Espoo, Noykkio, Metsatie 17",60.1579054,24.6721172
+257,1350.0,,"Helsinki, Lauttasaari, Italahdenkatu 2",60.14756130000001,24.8823119
+258,1520.47,,"Helsinki, Viikki, Viikinportti 2",60.2265964,25.008537
+259,1060.0,,"Helsinki, Sornainen, Paaskylanrinne 8 A",60.1881862,24.9666316
+260,665.0,,"Helsinki, Yla-Malmi, Markkinatie 6 B",60.25143269999999,25.0048989
+261,867.0,,"Espoo, Espoon keskus, Asemakuja 1",60.2044552,24.6596798
+262,905.0,,"Espoo, Kivenlahti, Jalkimaininki 4",60.1540942,24.6440628
+263,575.0,,"Espoo, Suvela, Sokinvuorenrinne 4 A",60.2004173,24.6680631
+264,630.0,,"Helsinki, Munkkivuori, Ulvilantie 29/5 B",60.2077574,24.8749137
+265,1600.0,,"Espoo, Hannusjarvi, Katajatie 15",60.1484215,24.6696311
+266,852.0,,"Helsinki, Pajamaki, Poutamaentie 7",60.21762210000001,24.8558245
+ads_id,price,description,address,lat,lng
+267,2085.67,,"Helsinki, Lauttasaari, Vattuniemenkuja 8",60.1533252,24.8822535
+268,1098.03,,"Helsinki, Lauttasaari, Vattuniemenkuja 8",60.1533252,24.8822535
+269,3200.0,,"Helsinki, Lansi-Pakila, Ripusuontie 19 B",60.2467218,24.9403021
+270,790.0,,"Helsinki, Munkkivuori, Porintie 9",60.2045566,24.8676564
+271,788.0,,"Espoo, Tapiola, Elosalamantie 4",60.17110719999999,24.808116
+272,965.0,,"Helsinki, Herttoniemi, Hiihtomaentie 44",60.2062311,25.0342865
+273,999.0,,"Helsinki, Etela-Haaga, Vanha Viertotie 9",60.2105514,24.8860446
+274,1920.0,,"Espoo, Eestinlaakso, Eestintaival 3",60.16971539999999,24.6751341
+275,1000.0,,"Helsinki, Kallio, Vilhonvuorenkuja 4",60.1863043,24.962607
+276,989.0,,"Helsinki, Malminkartano, Naavapolku 4",60.2540382,24.848335
+277,760.0,,"Helsinki, Rastila, Retkeilijankatu 3 A",60.20592319999999,25.1204993
+278,770.0,,"Helsinki, Rastila, Retkeilijankatu 5 A",60.2058997,25.1208972
+279,780.0,,"Helsinki, Rastila, Retkeilijankatu 5 A",60.2058997,25.1208972
+280,750.0,,"Helsinki, Rastila, Retkeilijankatu 7 A",60.205602,25.12218
+281,750.0,,"Helsinki, Rastila, Retkeilijankatu 7 A",60.205602,25.12218
+282,980.0,,"Espoo, Matinkyla, Etuniementie 1 C",60.1604542,24.7244342
+283,760.0,,"Espoo, Matinkyla, Etuniementie 1 C",60.1604542,24.7244342
+284,1140.0,,"Espoo, Matinkyla, Etuniementie 1 C",60.1604542,24.7244342
+285,1320.0,,"Espoo, Matinkyla, Etuniementie 1 D",60.1604542,24.7244342
+286,1230.0,,"Espoo, Matinkyla, Etuniementie 1 E",60.1604542,24.7244342
+287,1550.0,,"Espoo, Matinkyla, Etuniementie 1 E",60.1604542,24.7244342
+288,1416.0,,"Helsinki, Etela-Haaga, Vanha Viertotie 9",60.2105514,24.8860446
+289,1430.0,,"Helsinki, Kaivopuisto, Laivasillankatu 14 B",60.1606854,24.9556458
+290,1017.0,,"Espoo, Kivenlahti, Jalkimaininki 4",60.1540942,24.6440628
+291,1025.0,,"Espoo, Matinkyla, Kala-Maija 3",60.1591653,24.7407618
+292,1250.0,,"Helsinki, Mellunmaki, Kaunispaantie 3 I",60.2330969,25.1281227
+293,630.0,,"Helsinki, Punavuori, Sinebrychoffinkatu 11 C",60.1622507,24.9343124
+ads_id,price,description,address,lat,lng
+294,939.0,,"Helsinki, Kannelmaki, Hanuripolku 6",60.2389869,24.88358
+295,861.97,,"Helsinki, Aurinkolahti, Aurinkotuulenkatu 14",60.2050945,25.1580512
+296,1196.0,,"Espoo, Matinkyla, Nelikkotie 2",60.1619585,24.7407391
+297,1350.0,,"Espoo, Matinkyla, Etuniementie 1 C",60.1604542,24.7244342
+298,882.0,,"Helsinki, Etela-Haaga, Ryytimaantie 1",60.2155751,24.9042814
+299,1400.0,,"Helsinki, Tapaninvainio, Siimakuja 2 B",60.25405739999999,24.9837254
+300,690.0,,"Helsinki, Punavuori, Punavuorenkatu 11",60.1608508,24.9366871
+301,2120.0,,"Helsinki, Kalasatama, Antareksenkatu 22 a",60.18507699999999,24.979499
+302,1583.0,,"Espoo, Latokaski, Kaskihalme 1",60.17746119999999,24.6677776
+303,600.0,,"Helsinki, Alppila, Porvoonkatu 27",60.1916218,24.9437281
+304,1150.0,,"Helsinki, Meilahti, Pihlajatie 24 B 21",60.1940076,24.9018526
+305,931.0,,"Helsinki, Etela-Haaga, Vanha Viertotie 9",60.2105514,24.8860446
+306,924.0,,"Helsinki, Malminkartano, Koskustie 4",60.2530829,24.8552249
+307,789.0,,"Espoo, Laajalahti, Heinjoenpolku 2 A-J",60.2035545,24.802476
+308,1058.0,,"Helsinki, Puotila, Juorumaenkuja 5",60.20894569999999,25.1037493
+ads_id,price,description,address,lat,lng
+309,1173.0,,"Helsinki, Kumpula, Gadolininkatu 4",60.2062687,24.9650102
+310,1052.0,,"Helsinki, Ita-Pasila, Junailijankuja 10",60.2003367,24.9364758
+311,1058.0,,"Helsinki, Herttoniemi, Laivalahdenkaari 8",60.1908559,25.0355264
+312,1435.0,,"Espoo, Olari, Ylistorma 1",60.17714669999999,24.7378181
+313,1080.0,,"Helsinki, Arabianranta, Muotoilijankatu 8",60.21040089999999,24.9781254
+314,1195.0,,"Helsinki, Malmi, Helatehtaankatu 3",60.25461819999999,25.0196263
+315,1229.0,,"Helsinki, Malmi, Katontekijankuja 1",60.2529315,25.0233022
+316,900.0,,"Helsinki, Lauttasaari, Lauttasaarentie 9 A",60.161049,24.8880303
+317,1113.0,,"Espoo, Suvela, Kirstintie 30",60.2050488,24.6734683
+318,1134.0,,"Espoo, Suurpelto, Klariksentie 6",60.18299630000001,24.7400748
+319,1174.0,,"Espoo, Kilo, Nihtitorpankuja 7",60.2054911,24.6559001
+320,1230.0,,"Espoo, Makkyla, Adjutantinkatu 3",60.22170629999999,24.8348804
+321,985.0,,"Espoo, Leppavaara, Kiskottajankuja 2",60.2299168,24.8140589
+322,2350.0,,"Helsinki, Ullanlinna, Neitsytpolku 6 B",60.15729109999999,24.9494753
+323,1150.0,,"Helsinki, Meilahti, Pihlajatie 38 A",60.1953486,24.8992614
+324,1695.0,,"Espoo, Haukilahti, Lohitie 17",60.1652307,24.7662158
+325,1111.0,,"Espoo, Kilo, Nihtitorpankuja 7",60.2054911,24.6559001
+326,1111.0,,"Espoo, Kilo, Nihtitorpankuja 7",60.2054911,24.6559001
+327,3700.0,,"Helsinki, Lehtisaari, Pyhan Laurin tie 5 B",60.180654,24.8570126
+328,950.0,,"Espoo, Mankkaa, Eerontie 3",60.19188570000001,24.7589285
+329,1114.0,,"Espoo, Kivenlahti, Kivenlahdenkatu 5",60.1547105,24.6312163
+330,910.0,,"Helsinki, Konala, Seltterikuja 5",60.2377939,24.847991
+331,1100.0,,"Espoo, Haukilahti, Kuhatienahde 3",60.1656518,24.7715134
+332,900.0,,"Helsinki, Kallio, Helsinginkatu 13 C",60.187302,24.9556994
+333,1100.0,,"Helsinki, Toolo, Toolonkatu 31",60.18107000000001,24.924049
+334,1350.0,,"Helsinki, Katajanokka, RESERVED Katajanokanranta 11 C",60.17332440000001,24.9410248
+ads_id,price,description,address,lat,lng
+335,1900.0,,"Helsinki, Lauttasaari, Otavantie 7 A",60.15917570000001,24.8799904
+336,1200.0,,"Helsinki, Lauttasaari, Lokkikuja 1 A",60.16064739999999,24.8597333
+337,2195.0,,"Helsinki, Katajanokka, Katajanokanranta 7",60.1662672,24.9748696
+338,820.0,,"Helsinki, Alppila, Viipurinkatu 9 A",60.19119490000001,24.9430845
+339,989.0,,"Espoo, Tapiola, Tietajantie 11",60.18736229999999,24.8035085
+340,680.0,,"Helsinki, Lansi-Pakila, Valitalontie 38B",60.2466415,24.9347788
+341,822.0,,"Espoo, Lintuvaarantie 21",60.2262258,24.8122117
+342,765.0,,"Helsinki, Lauttasaari, Melkonkatu 8",60.1490349,24.883381
+343,1800.0,,"Helsinki, Katajanokka, Luotsikatu 6 E",60.16782569999999,24.9643819
+344,1177.0,,"Helsinki, Kamppi, Eerikinkatu 41",60.1638959,24.9255666
+345,1409.0,,"Helsinki, Vuosaari, Jauhajankuja 2",60.17332440000001,24.9410248
+346,1308.0,,"Helsinki, Itakeskus, Vanhanlinnantie 3",60.2144655,25.0878091
+347,4900.0,,"Espoo, Espoonlahdenranta 21",60.1455158,24.6402548
+348,1219.0,,"Helsinki, Malmi, Helatehtaankatu 3",60.25461819999999,25.0196263
+349,930.0,,"Helsinki, Lauttasaari, Italahdenkatu 14",60.15074929999999,24.8809317
+350,1046.0,,"Espoo, Kiltakallio, Valakuja 8",60.2032944,24.6600139
+351,1046.0,,"Helsinki, Pihlajamaki, Maasalvantie 5-9",60.23591649999999,25.0105861
+352,1226.0,,"Helsinki, Itakeskus, Vanhanlinnantie 3",60.2144655,25.0878091
+353,951.0,,"Helsinki, Malmi, Yla-Malmin tori 3",60.2524553,25.0092597
+354,996.0,,"Espoo, Espoon keskus, Sinettikuja 3",60.2018361,24.6577675
+ads_id,price,description,address,lat,lng
+355,1036.0,,"Helsinki, Jollas, Puuskarinne 7",60.1721721,25.0823538
+356,1174.0,,"Helsinki, Itakeskus, Vanhanlinnantie 3",60.2144655,25.0878091
+357,962.0,,"Helsinki, Viikki, Von Daehnin katu 8",60.23148610000001,25.0462074
+358,1021.0,,"Helsinki, Myllypuro, Kivensilmankuja 3",60.22366040000001,25.0739474
+359,1222.0,,"Helsinki, Aurinkolahti, Aurinkotuulenkatu 8",60.2064598,25.1581551
+360,1014.0,,"Helsinki, Viikki, Von Daehnin katu 8",60.23148610000001,25.0462074
+361,1690.0,,"Espoo, Hognas, Paciuksentie 38",60.24918710000001,24.6829844
+362,950.0,,"Helsinki, Hietalahti, Koydenpunojankatu 8 E",60.16380239999999,24.9239742
+363,990.0,,"Helsinki, Etela-Haaga, Korppaantie 3 D",60.20812050000001,24.8888074
+364,1100.0,,"Helsinki, Toolo, Toolonkatu 30b",60.1787337,24.9259991
+365,680.0,,"Helsinki, Suurmetsa, Kalteentie 3",60.2647844,25.0844432
+366,900.0,,"Helsinki, Verajamaki, Pukkilantie 2",60.2239788,24.9706918
+367,950.0,,"Espoo, Kivenlahti, Meriusva 1 A",60.15488850000001,24.6349543
+368,1500.0,,"Helsinki, Etu-Toolo, Fredrikinkatu 64 b 22",60.171617,24.9266698
+369,1257.0,,"Espoo, Leppavaara, Huvilinnantie 6",60.21557250000001,24.8071754
+370,990.0,,"Espoo, Matinkyla, Matinniitynkuja 6B",60.15957160000001,24.7436979
+371,930.0,,"Helsinki, Kallio, Fleminginkatu 23 C",60.1886394,24.9531568
+372,1000.0,,"Espoo, Lintuvaara, Kyyhkysmaki 16 C",60.22838160000001,24.8082397
+373,760.0,,"Helsinki, Laakso, Mannerheimintie 77 A",60.19227159999999,24.9102638
+374,880.0,,"Helsinki, Kannelmaki, Kantelettarentie 4 I",60.239023,24.8855567
+375,1350.0,,"Helsinki, Kamppi, Fredrikinkatu 69 B",60.17074139999999,24.9283821
+ads_id,price,description,address,lat,lng
+376,832.0,,"Espoo, Suurpelto, Piilipuuntie 31",60.18954199999999,24.7378153
+377,1328.0,,"Helsinki, Etela-Haaga, Vanha Viertotie 9",60.2105514,24.8860446
+378,1700.0,,"Helsinki, Kamppi, Etelainen Rautatiekatu 16 A A",60.1683718,24.924984
+379,2685.0,,"Helsinki, Messeniuksenkatu 10",60.1883831,24.9130097
+380,2374.0,,"Helsinki, Kamppi, Fredrikinkatu 58",60.1705267,24.9282558
+381,1121.0,,"Helsinki, Myllypuro, Kivensilmankuja 1",60.22370480000001,25.0744308
+382,1800.0,,"Helsinki, Kalasatama, Sornaistenlaituri 3 E",60.1853336,24.9838338
+383,795.0,,"Helsinki, Puotinharju, Korsholmantie 8 A",60.2156698,25.0806632
+384,1348.0,,"Espoo, Matinkyla, Maailman-Matti 2",60.16242499999999,24.7399043
+385,690.0,,"Helsinki, Lauttasaari, Isokaari 11",60.15672060000001,24.8663749
+386,1150.0,,"Helsinki, Lauttasaari, Puistokaari 21",60.16152880000001,24.8602594
+387,1100.0,,"Helsinki, Laakso, Mannerheimintie 71 B",60.191297,24.9130475
+388,1090.0,,"Espoo, Iivisniemi, Iivisniementie 4 C",60.1497453,24.6947521
+389,1680.0,,"Helsinki, Tunturikatu 10 A",60.17415250000001,24.9255542
+390,1146.0,,"Helsinki, Itakeskus, Vanhanlinnantie 3",60.2144655,25.0878091
+391,1027.0,,"Espoo, Tapiola, Elosalamantie 3",60.1715391,24.8079678
+392,1007.0,,"Espoo, Tapiola, Elosalamantie 3",60.1715391,24.8079678
+393,1078.0,,"Espoo, Tapiola, Elosalamantie 3",60.1715391,24.8079678
+394,1000.0,,"Espoo, Lippajarvi, Honkavaarantie 5 F",60.22790260000001,24.7337084
+395,1200.0,,"Helsinki, Tali, Pitajanmaentie 20",60.2168617,24.8704763
+396,1000.0,,"Helsinki, Kruununhaka, Mariankatu 21",60.17315089999999,24.9565631
+397,1190.0,,"Helsinki, Etu-Toolo, Perhonkatu 1 B",60.1700051,24.9251762
+398,1220.0,,"Espoo, Leppavaara, Kyyhkysmaki 24",60.22894449999999,24.8063329
+399,1122.0,,"Espoo, Kilo, Nihtitorpankuja 5 A",60.2054911,24.6559001
+400,1633.63,,"Helsinki, Lauttasaari, Vattuniemenkuja 8",60.1533252,24.8822535
+401,840.0,,"Espoo, Tiistila, Kalastajanmaki 8",60.15547549999999,24.7314861
+402,850.0,,"Espoo, Kilo, Ruotutorppa 2",60.21757710000001,24.7745447
+403,1750.0,,"Espoo, Tapiola, Koivuviita 7",60.1837373,24.7819656
+ads_id,price,description,address,lat,lng
+404,2200.0,,"Espoo, Nuottalahti, Nuottalahdentie 12-14",60.15113820000001,24.7306446
+405,1995.0,,"Espoo, Suurpelto, Piilipuuntie 14 A",60.1887535,24.7385371
+406,1639.0,,"Espoo, Nuottalahti, Nuottalahdentie 32",60.15102619999999,24.7268626
+407,825.0,,"Espoo, Iivisniemi, Norppatie 8",60.14805020000001,24.7005789
+408,881.0,,"Espoo, Matinkyla, Kala-Maija 3",60.1591653,24.7407618
+409,885.0,,"Espoo, Matinkyla, Nassakkakuja 4",60.1593877,24.7307741
+410,1152.0,,"Espoo, Ratamotie 6",60.23200989999999,24.7756945
+411,1251.0,,"Helsinki, Aurinkolahti, Jauhajankuja 2",60.17332440000001,24.9410248
+412,820.0,,"Espoo, Matinkyla, Akselinpolku 7",60.1566266,24.7479295
+413,700.0,,"Helsinki, Ullanlinna, Pietarinkatu 11",60.1573774,24.9476601
+414,870.0,,"Helsinki, Pitajanmaki, Strombergintie 8 D",60.2207202,24.8645993
+415,1390.0,,"Espoo, Kivenlahti, Meriusva 1 A",60.15488850000001,24.6349543
+416,720.0,,"Helsinki, Laakso, Mannerheimintie 55",60.18990030000001,24.9162085
+417,853.0,,"Espoo, Tuomarila, Kulovalkeantie 21",60.2076112,24.6851492
+418,980.0,,"Helsinki, Kruununhaka, Meritullinkatu 14 A",60.1725509,24.9581823
+419,1433.0,,"Espoo, Jarvenpera, Kulloonmaentie 24",60.24564279999999,24.7120867
+420,860.0,,"Helsinki, Viikki, Tilanhoitajankaari 12",60.2304128,25.0300532
+421,1157.0,,"Helsinki, Konala, Seltterikuja 5",60.2377939,24.847991
+422,1720.0,,"Helsinki, Jatkasaari, Tyynenmerenkatu 5",60.1579789,24.9214696
+423,2000.0,,"Espoo, Tuomarila, Joupinlaaksontie 9",60.2023762,24.6769872
+424,1750.0,,"Espoo, Kivenlahti, Maininkitie 12 c",60.153684,24.6472012
+425,1115.52,,"Helsinki, Mellunmaki, Laakavuorentie 7 C 56",60.2406996,25.1123147
+426,1150.0,,"Helsinki, Punavuori, Punavuorenkatu 14 A",60.1607027,24.9368905
+427,855.0,,"Helsinki, Herttoniemi, Sopulirinne 2",60.21525699999999,25.0436485
+428,817.0,,"Espoo, Ymmersta, Ullantorpantie 3",60.2053451,24.7040927
+429,1200.0,,"Espoo, Ymmersta, Ullantorpantie 3",60.2053451,24.7040927
+430,820.0,,"Espoo, Matinkyla, Rauhalanpuisto 4",60.1646021,24.7459057
+431,1084.0,,"Espoo, Jarvenpera, Aurorankuja 3",60.23738700000001,24.7032822
+ads_id,price,description,address,lat,lng
+432,1130.0,,"Espoo, Jarvenpera, Aurorankuja 3",60.23738700000001,24.7032822
+433,964.0,,"Helsinki, Vallila, Sturenkatu 47",60.1963214,24.9609605
+434,1064.0,,"Helsinki, Makelankatu 28",60.1942173,24.9568028
+435,770.0,,"Helsinki, Rastila, Retkeilijankatu 3 A",60.20592319999999,25.1204993
+436,890.0,,"Helsinki, Rastila, Retkeilijankatu 5 A",60.2058997,25.1208972
+437,910.0,,"Helsinki, Rastila, Retkeilijankatu 5 A",60.2058997,25.1208972
+438,780.0,,"Helsinki, Rastila, Retkeilijankatu 5 A",60.2058997,25.1208972
+439,910.0,,"Helsinki, Rastila, Retkeilijankatu 7 A",60.205602,25.12218
+440,770.0,,"Helsinki, Rastila, Retkeilijankatu 7 A",60.205602,25.12218
+441,770.0,,"Helsinki, Rastila, Retkeilijankatu 7 A",60.205602,25.12218
+442,610.0,,"Espoo, Suvela, Kirstinmaki 15 C",60.203598,24.6662743
+443,1050.0,,"Helsinki, Kruununhaka, Rauhankatu 11 C",60.1717256,24.9560025
+444,929.0,,"Helsinki, Viikki, Von Daehnin katu 12 A",60.2310102,25.0446831
+445,820.0,,"Espoo, Kivenlahti, Merivalkama 3 - 5 B",60.1536341,24.6324443
+446,1449.0,,"Helsinki, Lansi-Pasila, Kuuluttajankatu 2",60.2050512,24.9178006
+447,890.0,,"Espoo, Matinkyla, Matinpuronkuja 2",60.1628376,24.7542227
+448,1250.0,,"Helsinki, Kamppi, Lapinlahdenkatu 21 B",60.16712849999999,24.9265088
+449,890.0,,"Helsinki, Kannelmaki, Vanhaistentie 4 A",60.2422984,24.8850561
+450,920.0,,"Helsinki, Lauttasaari, Gylldenintie 10 E",60.1619435,24.8780638
+451,990.0,,"Helsinki, Herttoniemi, Siilitie 4 B",60.2066692,25.0427381
+452,620.0,,"Helsinki, Malmi, Markkinatie 13 A",60.25084399999999,25.0023026
+453,850.0,,"Helsinki, Laajasalo, Borgstrominkuja 4 i",60.1751877,25.0395366
+454,2150.0,,"Espoo, Tapiola, Harjuviita 2 B",60.1734583,24.825324
+455,1300.0,,"Helsinki, Ullanlinna, Kapteeninkatu 20-22",60.1579156,24.9444804
+456,1100.0,,"Espoo, Tapiola, Elosalamantie 3",60.1715391,24.8079678
+457,3500.0,,"Espoo, Nuottaniemi, Nuottakallio 8 D",60.1458598,24.734111
+458,2679.0,,"Helsinki, Gustav Pauligin Katu 4",60.20653170000001,25.1516861
+459,1013.0,,"Helsinki, Rinne 6",60.21181999999999,24.8968013
+460,2077.0,,"Helsinki, Paaskylanrinne 6A 105b, ",60.1878811,24.9662983
+ads_id,price,description,address,lat,lng
+461,930.0,,"Helsinki, Toolo, Kivelankatu 5-7",60.1803312,24.9264135
+462,1313.5,,"Helsinki, Herttoniemi, Abraham Wetterin tie 14 D 65",60.19314250000001,25.046611
+463,1000.0,,"Helsinki, Toolo, Kivelankatu 5-7",60.1803312,24.9264135
+464,800.0,,"Helsinki, Kruununhaka, Meritullinkatu 26",60.174504,24.9579718
+465,1315.0,,"Espoo, Tuomarila, Kulovalkeantie 21",60.2076112,24.6851492
+466,1315.0,,"Espoo, Tuomarila, Kulovalkeantie 21",60.2076112,24.6851492
+467,700.0,,"Helsinki, Etela-Haaga, Ristolantie 20 A",60.21286660000001,24.8935497
+468,935.0,,"Helsinki, Sornainen, Hameentie 48",60.18669320000001,24.9610531
+469,970.0,,"Helsinki, Sornainen, Hameentie 48",60.18669320000001,24.9610531
+470,771.0,,"Espoo, Tapiola, Neulaspolku 1",60.17870959999999,24.81409
+471,943.0,,"Espoo, Matinkyla, nelikkotie 2",60.1619585,24.7407391
+472,1251.0,,"Helsinki, Jatkasaari, Tyynenmerenkatu 5",60.1579789,24.9214696
+473,755.0,,"Espoo, Kiltakallio, Viirikuja 1",60.1995181,24.6575346
+474,950.0,,"Helsinki, Lauttasaari, Melkonkatu 4 C",60.1482281,24.8841642
+475,1242.0,,"Helsinki, Itakeskus, Kauppakartanonkuja 3",60.2072733,25.0765564
+476,1431.0,,"Helsinki, Sornainen, Kaenkuja 8",60.185143,24.9658424
+477,1750.0,,"Espoo, Saunalahti, Lansiviitta 5 C",60.16681869999999,24.6102685
+478,990.0,,"Helsinki, Etu-Toolo, Minna Canthin katu 9",60.1863202,24.918705
+479,840.0,,"Espoo, Leppavaara, Kyyhkysmaki 14",60.2283926,24.8087842
+480,1011.0,,"Helsinki, Roihuvuori, Roihuvuorentie 6a-6b",60.1960756,25.0534866
+481,1030.0,,"Helsinki, Tapulikaupunki, Vaakamestarinpolku 2",60.2769436,25.0219457
+482,547.0,,"Helsinki, Roihuvuori, Satumaanpolku 5 A",60.1958956,25.0572757
+483,1150.0,,"Helsinki, Pitajanmaki, Pitajanmaentie 20 A",60.2168617,24.8704763
+ads_id,price,description,address,lat,lng
+484,860.0,,"Helsinki, Meilahti, Mannerheimintie 128",60.1930673,24.9075258
+485,1050.0,,"Espoo, Otaniemi, Kivimiehentie 2",60.17986649999999,24.8287218
+486,930.0,,"Helsinki, Taka-Toolo, Humalistonkatu 2",60.18510200000001,24.9216428
+487,1280.0,,"Helsinki, Munkkiniemi, Solnantie 24",60.19686129999999,24.8782939
+488,850.0,,"Espoo, Iivisniemi, Iivisniemenaukio 2A7",60.14814149999999,24.6934665
+489,680.0,,"Helsinki, Kamppi, Lapinlahdenkatu 11 C",60.1668148,24.928883
+490,1140.0,,"Helsinki, Punavuori, Pursimiehenkatu 20 B 16",60.15880569999999,24.9364689
+491,1125.0,,"Helsinki, Tali, Kutomotie 8a",60.2141236,24.8723259
+492,950.0,,"Espoo, Niittykumpu, Niittykatu 4",60.1688498,24.7610418
+493,850.0,,"Espoo, Tuomarila, Tuomarilantie 9",60.20557139999999,24.6818327
+494,885.0,,"Helsinki, Pihlajamaki, Kiillekuja 4",60.2327033,25.0066464
+495,1900.0,,"Espoo, Haukilahti, Saynavatie 7 C",60.1603552,24.7779782
+496,2322.0,,"Espoo, Leppavaara, Leppavaarankatu 12",60.2169587,24.8096488
+497,1450.0,,"Espoo, Tapiola, Suvikuja 4 C",60.1727915,24.7892893
+498,886.0,,"Espoo, Kivenlahti, Aallonhuippu 9 A",60.151902,24.639215
+499,988.0,,"Espoo, Tapiola, Elosalamantie 3",60.1715391,24.8079678
+500,2553.0,,"Helsinki, Kamppi, Kalevankatu 28 A",60.16567569999999,24.933566
+501,1261.0,,"Helsinki, Kamppi, Kalevankatu 28 B",60.16567569999999,24.933566
+502,1280.0,,"Helsinki, Ullanlinna, Vuorimiehenkatu 10 D",60.15924620000001,24.9463256
+503,650.0,,"Espoo, Makkyla, Puustellinmaki 1 A",60.20807,24.7991375
+504,1121.8,,"Espoo, Lasilaakso, Lasimaki 2",60.18337769999999,24.5838915
+505,1990.0,,"Espoo, Suurpelto, Piilipuuntie 14 A",60.1887535,24.7385371
+506,1380.0,,"Helsinki, Etu-Toolo, Arkadiankatu 12 A",60.1710478,24.9294127
+507,1154.0,,"Espoo, Kilo, Nihtitorpankuja 7",60.2054911,24.6559001
+508,1141.04,,"Helsinki, Viikki, Viikinportti 2",60.2265964,25.008537
+ads_id,price,description,address,lat,lng
+509,1077.0,,"Espoo, Kilo, Nihtitorpankuja 7",60.2054911,24.6559001
+510,935.03,,"Espoo, Kivenlahti, Meriusva 5",60.1550538,24.6355801
+511,695.0,,"Helsinki, Kannelmaki, Vanhaistentie 4 D",60.2422984,24.8850561
+512,1094.93,,"Helsinki, Aurinkolahti, Aurinkotuulenkatu 14 C",60.2050945,25.1580512
+513,980.0,,"Helsinki, Vuosaari, Satamasaarentie 6 F",60.2126383,25.1380937
+514,919.44,,"Helsinki, Vesala, Rekipellontie 2 B 23",60.2384321,25.0985029
+515,970.0,,"Helsinki, Hermanni, Sornaistenkatu 19 A",60.19450699999999,24.9727654
+516,800.0,,"Helsinki, Ullanlinna, Pietarinkatu 11 C",60.1573774,24.9476601
+517,930.0,,"Espoo, Laaksolahti, Kolkekannaksentie 19 B 50",60.23966309999999,24.7374284
+518,780.0,,"Espoo, Suvela, Kirstintie 16",60.20262899999999,24.6694258
+519,830.0,,"Helsinki, Lauttasaari, Isokaari 5",60.15749019999999,24.8701033
+520,1300.0,,"Espoo, Nuotiopiha 2",60.2113288,24.806394
+521,910.0,,"Espoo, Jarvenpera, Aurorankuja 5",60.23725270000001,24.7027986
+522,1300.0,,"Espoo, Puolarmetsa, Malminhaankuja 9",60.1759285,24.689084
+523,870.0,,"Espoo, Tontunmaki, Nokitontunkuja 2",60.1752179,24.7767024
+524,995.0,,"Helsinki, Kallio, Castreninkatu 3",60.18419220000001,24.9455893
+525,1003.0,,"Helsinki, Suutarila, Juhannustie 25",60.28709970000001,25.017114
+526,893.0,,"Espoo, Soukka, Soukankaari 13",60.1408016,24.6673884
+527,922.0,,"Helsinki, Pitajanmaki, Piispantie 5",60.2296217,24.844869
+528,956.0,,"Helsinki, Vuosaari, Kivisaarentie 2",60.2200769,25.1394236
+ads_id,price,description,address,lat,lng
+529,890.0,,"Espoo, Kivenlahti, Meriusva 5 A",60.1550538,24.6355801
+530,815.0,,"Espoo, Rastaspuisto, Tahtimotie 2 A",60.2321408,24.7798481
+531,1190.0,,"Helsinki, Lauttasaari, Puistokaari 12 B",60.1613585,24.8621197
+532,1250.0,,"Helsinki, Lauttasaari, Lielahdentie 7 a B",60.16152169999999,24.8781297
+533,1119.0,,"Helsinki, Pitajanmaki, KOKKOKALLIONTIE 1 A",60.2285929,24.8501932
+534,1327.0,,"Helsinki, Tapanila, Rajatie 5 B",60.2622369,25.0192059
+535,947.0,,"Espoo, Matinkyla, Nelikkotie 2",60.1619585,24.7407391
+536,872.0,,"Helsinki, Sornainen, Paaskylanrinne 8 A",60.1881862,24.9666316
+537,1130.0,,"Helsinki, Oulunkyla, Suursuontie 14 A",60.23395650000001,24.9377215
+538,950.0,,"Espoo, Matinkyla, Matinpuronkuja 2",60.1628376,24.7542227
+539,930.0,,"Helsinki, Pohjois-Haaga, Maria Jotunin tie 3",60.22791849999999,24.9005583
+540,1070.0,,"Helsinki, Hermanni, Haukilahdenkuja 13",60.1966237,24.971324
+541,2500.0,,"Helsinki, Yliskyla, Yliskylankaari 17 B",60.18504279999999,25.0546897
+542,1290.0,,"Helsinki, Kamppi, Simonkatu 10",60.168823,24.9358855
+543,835.0,,"Espoo, Suurpelto, Piilipuuntie 21",60.1882945,24.7389331
+544,630.0,,"Helsinki, Vallila, Makelankatu 10 A",60.1926132,24.9602112
+545,1093.0,,"Helsinki, Toolo, Mechelininkatu 6",60.1710132,24.9201004
+546,1761.77,,"Helsinki, Kruununhaka, Liisankatu 14 A 24",60.1740698,24.955139
+547,5500.0,,"Espoo, Noykkio, Rakentajaintie 7",60.1656079,24.6489694
+548,850.0,,"Espoo, Matinkyla, Liisankuja 4 C",60.1533414,24.7438711
+549,1800.0,,"Espoo, Saunalahti, Saunarinne 7",60.16633760000001,24.6080962
+550,1181.0,,"Helsinki, Malmi, Tilketori 4",60.2496333,25.0042535
+551,1024.0,,"Helsinki, Tapulikaupunki, Kasityolaisentie 4-10",60.2732085,25.033676
+ads_id,price,description,address,lat,lng
+552,776.0,,"Helsinki, Tapulikaupunki, Kasityolaisentie 4-10",60.2732085,25.033676
+553,1199.0,,"Helsinki, Malminkartano, Tuulenpesantie 3",60.25248810000001,24.8503
+554,928.55,,"Espoo, Leppavaara, Linnatullinkatu 1",60.2189922,24.8083298
+555,1609.99,,"Helsinki, Lauttasaari, Vattuniemenkuja 8",60.1533252,24.8822535
+556,717.18,,"Espoo, Vesirattaanmaki, Vesirattaanmaki 1",60.2266801,24.665944
+557,859.0,,"Espoo, Tuomarila, Tuomarilankatu 1",60.20516540000001,24.6839006
+558,1195.0,,"Espoo, Saunalahti, Myotatuulenmaki 1 A",60.1629001,24.6160642
+559,1289.0,,"Helsinki, Kamppi, Eerikinkatu 41",60.1638959,24.9255666
+560,890.0,,"Espoo, Joupinmaenrinne 3 A",60.2027005,24.6748563
+561,924.0,,"Espoo, Espoon keskus, Asemakuja 1",60.2044552,24.6596798
+562,1059.0,,"Helsinki, Pitajanmaki, Takomotie 21",60.21836680000001,24.8733615
+563,772.0,,"Espoo, Vallikallio, Vallikatu 17",60.22885400000001,24.8160233
+564,1220.0,,"Helsinki, Pikku Huopalahti, Tilkankatu 2",60.2036531,24.8954617
+565,974.0,,"Espoo, Leppavaara, Rummunlyojankatu 11 D-E",60.21903039999999,24.8052443
+566,960.0,,"Espoo, Soukka, Soukankaari 12",60.140051,24.6680776
+567,1215.0,,"Helsinki, Herttoniemi, Hitsaajankatu 7",60.19234220000001,25.0280238
+568,1430.0,,"Helsinki, Herttoniemi, Hitsaajankatu 7",60.19234220000001,25.0280238
+569,879.0,,"Helsinki, Herttoniemi, Hitsaajankatu 7",60.19234220000001,25.0280238
+570,948.0,,"Helsinki, Herttoniemi, Hitsaajankatu 7",60.19234220000001,25.0280238
+571,1215.0,,"Helsinki, Herttoniemi, Hitsaajankatu 7",60.19234220000001,25.0280238
+572,1289.0,,"Helsinki, Herttoniemi, Hitsaajankatu 7",60.19234220000001,25.0280238
+573,1833.0,,"Espoo, Iivisniemi, Iivisniementie 2",60.1489874,24.6953579
+574,923.0,,"Helsinki, Kontula, Tanhuantie 1",60.23607679999999,25.0948781
+575,924.0,,"Espoo, Espoonlahti, Ulappakatu 1 G",60.1508655,24.6550839
+576,920.0,,"Helsinki, Rastila, Retkeilijankatu 7 A",60.205602,25.12218
+577,1145.0,,"Helsinki, Lauttasaari, Otavantie 5",60.158328,24.8796405
+578,1050.0,,"Helsinki, Lassila, Laurinniityntie 6-8 C",60.23257760000001,24.8813501
+579,1350.0,,"Helsinki, Toolo, Valhallankatu 12-14 A",60.1846671,24.9127003
+580,1269.0,,"Helsinki, Herttoniemi, Abraham Wetterin tie 16 A 18",60.19314250000001,25.046611
+581,630.0,,"Helsinki, Kallio, Helsinginkuja 2 E",60.1876737,24.9555829
+582,750.0,,"Espoo, Soukka, Soukanahde 8 A 18",60.1404078,24.6746775
+583,890.0,,"Helsinki, Hermanni, Helminkatu 8 B 21",60.1976397,24.964201
+ads_id,price,description,address,lat,lng
+584,1020.0,,"Espoo, Matinkyla, Matinpuronkuja 2",60.1628376,24.7542227
+585,1056.0,,"Espoo, Tapiola, Elosalamantie 3 A 10",60.1715391,24.8079678
+586,963.0,,"Espoo, Tapiola, Elosalamantie 3 A 7",60.1715391,24.8079678
+587,988.0,,"Espoo, Tapiola, Elosalamantie 3 A 25",60.1715391,24.8079678
+588,880.0,,"Espoo, Matinkyla, Matinpuronkuja 2 D 24",60.1628376,24.7542227
+589,150.0,,"Helsinki, Kamppi, Kalevankatu 61",60.16253690000001,24.9239712
+590,1020.0,,"Helsinki, Katajanokka, Kruunuvuorenkatu 1 C",60.16762619999999,24.9626034
+591,850.0,,"Espoo, Vallikallio, Vallikatu 15",60.22880379999999,24.8175093
+592,911.0,,"Espoo, Espoon keskus, Asemakuja 1",60.2044552,24.6596798
+593,960.0,,"Helsinki, Punavuori, Annankatu 4 A",60.163154,24.9418764
+594,1300.0,,"Espoo, Makkyla, Adjutantinkatu 3",60.22170629999999,24.8348804
+595,975.0,,"Espoo, Haukilahti, Pitkankalliontie 9",60.1577266,24.7787489
+596,1390.0,,"Espoo, Haukilahti, Hauenkalliontie 12-14",60.1623434,24.7689668
+597,902.0,,"Espoo, Haukilahti, Kiiskeneva 2",60.1646512,24.7759257
+598,890.0,,"Helsinki, Ruskeasuo, Koroistentie 15 B",60.20235280000001,24.902143
+599,1245.0,,"Helsinki, Ruoholahti, Santakatu 1 D",60.1628653,24.9195124
+600,950.0,,"Helsinki, Vuosaari, Isonvillasaarentie 8 K",60.2207456,25.1436011
+601,550.0,,"Espoo, Kuninkainen, Kuninkaistenportti 11",60.2236642,24.7752548
+602,1196.0,,"Espoo, Espoonlahti, Puosunrinne 1 B",60.14952,24.6458048
+603,1040.0,,"Helsinki, Puotila, Rantakartanontie 19",60.2156992,25.0979411
+604,1390.0,,"Helsinki, Pajamaki, Pajamaentie 7",60.2189578,24.8566622
+605,998.0,,"Helsinki, Malmi, Piilikuja 4",60.2543683,25.0141564
+606,1150.0,,"Helsinki, Kamppi, Eerikinkatu 23 D",60.16560459999999,24.9304098
+607,690.0,,"Helsinki, Kallio, Vaasankatu 20b",60.18826079999999,24.953846
+ads_id,price,description,address,lat,lng
+608,1050.0,,"Espoo, Haukilahti, Hauenkalliontie 12-14",60.1623434,24.7689668
+609,1350.0,,"Espoo, Leppavaara, Leppavaarankatu 12",60.2169587,24.8096488
+610,980.0,,"Espoo, Olari, Maapallonkuja 2",60.1721288,24.7256862
+611,1383.0,,"Espoo, Tapiola, Tuulikuja 4",60.1713438,24.8007668
+612,1280.0,,"Espoo, Matinkyla, Matinpuronkuja 2D",60.1628376,24.7542227
+613,1172.0,,"Espoo, Haukilahti, Hauenkalliontie 12-14",60.1623434,24.7689668
+614,842.0,,"Espoo, Kilo, Nihtitorpankuja 5 A",60.2054911,24.6559001
+615,958.0,,"Espoo, Kilo, Nihtitorpankuja 5 A",60.2054911,24.6559001
+616,890.0,,"Helsinki, Ullanlinna, Kasarmikatu 1",60.1599616,24.9486717
+617,1008.0,,"Helsinki, Malminkartano, Pihkatie 6 F 61",60.2523235,24.8560735
+618,1000.0,,"Helsinki, Malminkartano, Pihkatie 6 I 88",60.2523235,24.8560735
+619,1380.0,,"Helsinki, Kivikko, Muinaisrannantie 3",60.17332440000001,24.9410248
+620,1290.0,,"Helsinki, Lauttasaari, Lauttasaarentie 12 A",60.160855,24.8878944
+621,1140.0,,"Helsinki, Etela-Haaga, Riistavuorenkuja 3 B",60.2192408,24.8872295
+622,950.0,,"Espoo, Espoonlahti, Merivalkama  22 A",60.1519731,24.6293399
+623,1370.0,,"Espoo, Hyljelahti, Hyljeveneentie 6 C",60.14405619999999,24.6987083
+624,1270.0,,"Espoo, Haukilahti, Toppelundintie 3 A",60.15956519999999,24.7875741
+625,957.0,,"Helsinki, Viikki, Agronominkatu 1",60.23442819999999,25.0337579
+626,980.0,,"Helsinki, Pukinmaki, Erkki Melartinin tie 1",60.2462323,24.9888487
+627,849.0,,"Espoo, Tapiola, Kaskenkaatajantie 5",60.1804031,24.7927449
+628,1037.0,,"Espoo, Karakallio, Kotkatie 6",60.2300434,24.7621844
+629,1306.0,,"Espoo, Vallikallio, Porarinkatu 2",60.22495259999999,24.8210892
+630,915.0,,"Helsinki, Maunula, Suopellonkaari 61",60.17332440000001,24.9410248
+631,890.0,,"Helsinki, Etela-Haaga, Sankaritie 9",60.214558,24.9015112
+632,1200.0,,"Helsinki, Ullanlinna, Vuorimiehenkatu 31 A",60.1593493,24.9444932
+633,2387.0,,"Helsinki, Albertinkatu 31",60.16509790000001,24.9324138
+ads_id,price,description,address,lat,lng
+634,790.0,,"Espoo, Espoon keskus, Valakuja 2 C",60.2031927,24.661925
+635,990.0,,"Espoo, Espoon keskus, Valakuja 2 D",60.2031927,24.661925
+636,920.0,,"Helsinki, Rastila, Retkeilijankatu 3 A",60.20592319999999,25.1204993
+637,955.0,,"Espoo, Olari, Piispanpiha 5",60.1645007,24.7333022
+638,1275.0,,"Espoo, Laaksolahti, Rastasniityntie 1",60.23332929999999,24.7529177
+639,3500.0,,"Helsinki, Kuusisaari, Krogiuksentie 11",60.1848693,24.8621542
+640,950.0,,"Espoo, Iivisniemi, Iivisniemenkatu 4",60.14897680000001,24.6908472
+641,1007.0,,"Espoo, Laaksolahti, Rastasniityntie 1",60.23332929999999,24.7529177
+642,1221.0,,"Helsinki, Konala, Ristipellontie 6",60.2386042,24.8519191
+643,990.0,,"Espoo, Matinkyla, Elsankuja 5 D",60.15623290000001,24.742512
+644,1350.0,,"Helsinki, Siltasaari, Saastopankinranta 4 D",60.1792656,24.9480233
+645,1042.0,,"Helsinki, Tapulikaupunki, Kasityolaisentie 4-10",60.2732085,25.033676
+646,843.0,,"Helsinki, Tapulikaupunki, Kasityolaisentie 4-10",60.2732085,25.033676
+647,1471.0,,"Helsinki, Tapulikaupunki, Kasityolaisentie 4-10",60.2732085,25.033676
+648,1790.0,,"Espoo, Kivenlahti, Meriusva 5 A",60.1550538,24.6355801
+649,1690.0,,"Helsinki, Punavuori, Iso Roobertinkatu 7 A 5 B",60.1637954,24.9426317
+650,902.0,,"Espoo, Haukilahti, Hauenkalliontie 12-14",60.1623434,24.7689668
+651,990.0,,"Espoo, Haukilahti, Hauenkalliontie 12-14",60.1623434,24.7689668
+652,959.0,,"Espoo, Laajalahti, Heinjoenpolku 2 A-J",60.2035545,24.802476
+653,1189.0,,"Helsinki, Pikku Huopalahti, Tilkankatu 6",60.2030751,24.8942589
+654,1970.0,,"Helsinki, Toolo, Dobelninkatu 3",60.1780427,24.9237659
+655,982.0,,"Helsinki, Malminkartano, Juustenintie 4 B",60.24439779999999,24.8677771
+656,890.0,,"Espoo, Haukilahti, Kiiskeneva 2",60.1646512,24.7759257
+657,1440.0,,"Espoo, Soukka, Kartanonkuja",60.1351533,24.66632
+658,1173.0,,"Espoo, Espoonlahti, Ulappakatu 1",60.1508655,24.6550839
+659,780.0,,"Espoo, Espoon keskus, Valakuja 2 B",60.2031927,24.661925
+ads_id,price,description,address,lat,lng
+660,1790.0,,"Espoo, Leppavaara, Leppavaarankatu 12 as.",60.2169587,24.8096488
+661,1450.0,,"Helsinki, Etu-Toolo, Apollonkatu 5 B",60.1758683,24.9268751
+662,900.0,,"Helsinki, Lauttasaari, Lauttasaarentie 35 A",60.1606601,24.879126
+663,912.0,,"Espoo, Matinkyla, Puntaritie 5",60.161721,24.7347627
+664,1250.0,,"Helsinki, Lauttasaari, Hakolahdentie 11 B",60.15600999999999,24.8686017
+665,1610.0,,"Helsinki, Arabiankatu 4 C 78",60.20681990000001,24.9769599
+666,1115.0,,"Helsinki, Sornainen, Paaskylanrinne 8 A",60.1881862,24.9666316
+667,1700.0,,"Helsinki, Katajanokka, Kanavakatu 7 C",60.16481,24.9694786
+668,1040.0,,"Espoo, Haukilahti, Salakkatie  1 A 8",60.1640369,24.7795923
+669,1794.0,,"Helsinki, Kannelmaki, Pasuunatie 2b",60.2408732,24.8720145
+670,1670.0,,"Espoo, Tapiola, Revontulentie 11",60.1719133,24.8040988
+671,1004.0,,"Espoo, Makkyla, Adjutantinkatu 3",60.22170629999999,24.8348804
+672,923.0,,"Helsinki, Etela-Haaga, Ristolantie 19",60.2130182,24.8939665
+673,1500.0,,"Espoo, Tapiola, Puhurinpolku 1",60.1742654,24.789714
+674,4500.0,,"Helsinki, Ullanlinna, Tahtitorninkatu 8",60.16109489999999,24.9537594
+675,1950.0,,"Helsinki, Vartioharju, Ruotsinsalmenkuja 3",60.2153758,25.1128655
+676,3200.0,,"Helsinki, Kaartinkaupunki, Bernhardinkatu 7",60.1636716,24.9501715
+677,980.0,,"Helsinki, Lauttasaari, Haahkapolku 3",60.1562075,24.878492
+678,900.0,,"Helsinki, Kapyla, Osmontie 45",60.219779,24.9481824
+679,912.0,,"Helsinki, Itakeskus, Kauppakartanonkuja 3",60.2072733,25.0765564
+680,950.0,,"Helsinki, Taka-Toolo, Messeniuksenkatu 6",60.1880534,24.914249
+681,850.0,,"Helsinki, Tapulikaupunki, Kamnerintie 12",60.2765363,25.0275366
+682,1079.0,,"Espoo, Tapiola, Kaupinkalliontie 5",60.1785714,24.8019944
+ads_id,price,description,address,lat,lng
+683,980.0,,"Helsinki, Laajasalo, Umpiaidanpolku 4",60.1849314,25.0525822
+684,899.0,,"Espoo, Suurpelto, Piilipuuntie 25",60.18884879999999,24.7386435
+685,1240.0,,"Helsinki, Kontula, Kaarenjalka 5",60.2374544,25.0751671
+686,1054.0,,"Espoo, Suvela, Kirstintie 30",60.2050488,24.6734683
+687,2120.0,,"Helsinki, Lauttasaari, Sarkiniementie 11",60.1504145,24.8780428
+688,2300.0,,"Helsinki, Kamppi, Hietalahdenranta 19 B",60.16114469999999,24.9258521
+689,1095.0,,"Helsinki, Vallila, Sahanmaenkuja 4",60.19540319999999,24.9401289
+690,1337.51,,"Helsinki, Jatkasaari, Tyynenmerenkatu 3 A 3",60.1590615,24.9212216
+691,850.0,,"Espoo, Tuomarila, Tuomarilantie 9",60.20557139999999,24.6818327
+692,980.0,,"Helsinki, Myllypuro, Karistimentie 2 D",60.2270538,25.0705603
+693,860.0,,"Helsinki, Lehtisaari, Lehdesniityntie 3 D",60.1805302,24.8479185
+694,909.0,,"Helsinki, Myllypuro, Kivensilmankuja 1",60.22370480000001,25.0744308
+695,907.0,,"Espoo, Leppavaara, Sininarhintie 5",60.2285062,24.823459
+696,2500.0,,"Helsinki, Herttoniemenranta, Neitojenranta 2 C",60.18559029999999,25.0330287
+697,870.0,,"Helsinki, Kulosaari, Tupavuori 3",60.1872861,25.0102537
+698,1100.0,,"Helsinki, Itakeskus, Vanhanlinnantie 3",60.2144655,25.0878091
+699,790.0,,"Helsinki, Katajanokka, Merisotilaankatu 4 G",60.1675087,24.975996
+700,720.0,,"Helsinki, Etela-Haaga, Kauppalantie 44",60.21615389999999,24.8965287
+701,993.0,,"Helsinki, Viikki, Von Daehnin katu 8",60.23148610000001,25.0462074
+702,1475.0,,"Helsinki, Etu-Toolo, Leppasuonkatu 10 B",60.16907729999999,24.9224839
+703,1180.0,,"Helsinki, Lehtisaari, Liljasaarentie",60.18230070000001,24.8482117
+704,950.0,,"Espoo, Vallikallio, Porarinkatu 2",60.22495259999999,24.8210892
+705,1890.0,,"Helsinki, Ullanlinna, Vuorimiehenkatu 4",60.1605088,24.9542179
+706,1450.0,,"Espoo, Tapiola, Revontulentie 11",60.1719133,24.8040988
+707,1275.0,,"Helsinki, Aurinkolahti, Jauhajankuja 2",60.17332440000001,24.9410248
+708,995.0,,"Helsinki, Malminkartano, Juustenintie 4 B",60.24439779999999,24.8677771
+709,1300.0,,"Helsinki, Etu-Toolo, Leppasuonkatu 10 A",60.16907729999999,24.9224839
+ads_id,price,description,address,lat,lng
+710,1008.0,,"Helsinki, Kannelmaki, Klaneettipolku 7",60.23897950000001,24.8749417
+711,1100.0,,"Helsinki, Ullanlinna, Vuorimiehenkatu 14 C",60.15918560000001,24.9448832
+712,963.0,,"Espoo, Ratamotie 6",60.23200989999999,24.7756945
+713,950.0,,"Helsinki, Viikki, Katariina Saksilaisen katu 11",60.2162385,24.9859434
+714,1650.0,,"Espoo, Malminmaki, Malminmaentie 5",60.1811079,24.6839356
+715,2600.0,,"Espoo, Haukilahti, Pitkankallionkuja 4",60.1585987,24.7808559
+716,850.0,,"Helsinki, Kruununhaka, Liisankatu 12",60.1740817,24.9559006
+717,846.0,,"Espoo, Leppavaara, Leirikaari 24",60.2104578,24.8076937
+718,1397.0,,"Helsinki, Pikku Huopalahti, Taavetinaukio 3, Taavetinkuja 11",60.1998348,24.8956531
+719,859.0,,"Helsinki, Pajamaki, Pajamaentie 7",60.2189578,24.8566622
+720,985.0,,"Espoo, Laajalahti, Heinjoenpolku 2 P-Y",60.2035545,24.802476
+721,750.0,,"Espoo, Kilo, Kilontie 8 F",60.21937149999999,24.7778618
+722,1050.0,,"Espoo, Otaniemi, Kivimiehentie 2",60.17986649999999,24.8287218
+723,1080.0,,"Helsinki, Kannelmaki, Hanuripolku 6",60.2389869,24.88358
+724,936.0,,"Helsinki, Etela-Haaga, Vanha Viertotie 9",60.2105514,24.8860446
+725,1004.0,,"Espoo, Matinkyla, Markkinakatu 2",60.1603426,24.737268
+726,1224.0,,"Espoo, Matinkyla, Markkinakatu 2",60.1603426,24.737268
+727,938.0,,"Espoo, Tapiola, Neulaspolku 1",60.17870959999999,24.81409
+728,6000.0,,"Espoo, Westend, Westendintie 45 B",60.16113739999999,24.8015325
+729,1600.0,,"Helsinki, Ullanlinna, Laivurinkatu 35 B",60.1588349,24.9421833
+730,1581.0,,"Helsinki, Jatkasaari, Kap Hornin katu 8",60.15762050000001,24.9203444
+731,985.0,,"Espoo, Matinkyla, Matinpuronkuja 2",60.1628376,24.7542227
+732,985.0,,"Espoo, Matinkyla, Matinpuronkuja 2",60.1628376,24.7542227
+733,995.0,,"Helsinki, Keskusta, Kalevankatu 9",60.17332440000001,24.9410248
+734,1650.0,,"Helsinki, Vuosaari, Pienenvillasaarentie 13",60.22235200000001,25.1456256
+735,1265.0,,"Espoo, Kilo, Trillakatu 2",60.2170559,24.7859315
+736,1560.0,,"Helsinki, Suutarila, Tapulikaupungintie 15",60.2769966,25.0346193
+737,1160.0,,"Espoo, Jouppi, Joupinmaensyrja 3",60.2054911,24.6559001
+738,1160.0,,"Espoo, Kilo, Trillakatu 3",60.21741549999999,24.7861317

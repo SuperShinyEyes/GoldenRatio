@@ -195,7 +195,7 @@ if __name__ == '__main__':
 		In reality it will be less than 400, because 
 		regions outside Helsinki and Espoo will be eliminated
 		"""
-		interval = 2
+		interval = 40
 		if page_index % interval == 0:
 			write_csv(str(page_index / interval))
 			total_count += len(prices)
