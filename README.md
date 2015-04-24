@@ -1,2 +1,2 @@
-# datahackathon
-Aalto data science hackathon 2015
+Folder: vuokraovi_retrieve
+Contents: Python codes to scrape vuokraovi.com
