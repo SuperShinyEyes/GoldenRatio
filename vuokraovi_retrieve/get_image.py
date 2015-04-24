@@ -1,9 +1,10 @@
 from lxml import html
-import requests, csv, os, shutil
+import requests, csv, os, shutil, unicodedata
 
-csv_path = '/home/pi/datahackathon/csv/0424-1430/data1.csv'
+csv_path = '/Users/young/datahackathon/csv/0424-1430/data1.csv'
 mockup_img_num = 0
 agency_missing = 0
+total = 0
 agencies = []
 """
 Open csv file and get URL one by one
@@ -15,7 +16,7 @@ Save the image and the name should be 'id#.jpg'
 """
 def download(url, id):
 	chunk_size = 10
-	file_path = '/home/pi/datahackathon/img/' + id + '.jpg'
+	file_path = '/Users/young/datahackathon/img/' + id + '.jpg'
 	response = requests.get(url, stream=True)
 
 	with open(file_path, 'wb') as out_file:
@@ -28,8 +29,8 @@ def download(url, id):
 
 def save_mockup_img(id):
 	global mockup_img_num
-	mockup_img = '/home/pi/datahackathon/house.png'
-	img_dir = '/home/pi/datahackathon/img/'
+	mockup_img = '/Users/young/datahackathon/house.png'
+	img_dir = '/Users/young/datahackathon/img/'
 
 	shutil.copy(mockup_img, img_dir + id + '.jpg')
 	mockup_img_num += 1
@@ -53,12 +54,36 @@ def get_csv(name):
 def add_column(column, new):
 	data = get_csv(csv_path)
 	data[0].append(column)
-	for i in len(agencies):
+	for i in range(len(agencies)):
 		data[i+1].append(agencies[i])
 
-	with open(new) as f:
+	with open(new, 'w') as f:
 		writer = csv.writer(f)
 		writer.writerows(data)
+
+def write_to_text(url, e):
+	with open('output2.txt', 'a') as f:
+		f.write(url)
+		f.write("\n(%d) Agency name missing: %s\n" % (agency_missing, e))
+
+
+def strip_string(string, type=None):
+	## Convert from unicode to ASCII string
+	if isinstance(string, unicode):
+		string_stripped = unicodedata.normalize('NFKD', string).encode('ascii', 'ignore') 
+	else:
+		string_stripped = string
+	
+	## '1 200,50 / kk'(rent per month) -> '1200.50' 
+	if type == 'number':
+		string_stripped = string_stripped.replace(' ', '')
+		string_stripped = string_stripped.replace(',', '.')
+		string_stripped = (string_stripped.strip(' \r\n'))
+		string_stripped = float(string_stripped.split('/')[0])
+	else:
+		string_stripped = string_stripped.translate(None, '\r\n')
+		
+	return string_stripped
 
 def get_agency(url):
 	global agencies, agency_missing
@@ -71,18 +96,26 @@ def get_agency(url):
 	except IndexError as e:
 		agency_missing += 1
 		agency = "Agency info missing"
+		write_to_text(url, e)
+		print url
 		print "(%d) Agency name missing: %s" % (agency_missing, e)
+	else:
+		agency = strip_string(agency)
+		print "(%d) Successful!" % total
 	finally:
 		agencies.append(agency)
-		print "(%d) Agency name: %s" % (len(agencies), agency)
+		#print "(%d) Agency name: %s" % (len(agencies), agency)
 
 def take_csv_column(file):
+	global total
 	reader = csv.DictReader(file)
+
 	for row in reader:
 		url = row['URL']
 		id = row['id']
-		print url
+		#print url
 		img_link = get_agency(url)
+		total += 1
 
 	add_column('agency', 'example.csv')
 
@@ -97,6 +130,7 @@ def take_csv_img(file, type=None):
 			save_mockup_img(id)
 		else:
 			download(url, id)
+		
 
 
 
