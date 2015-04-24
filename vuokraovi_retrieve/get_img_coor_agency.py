@@ -1,10 +1,11 @@
 from lxml import html
-import requests, csv, os, shutil, unicodedata
+import requests, csv, os, shutil, unicodedata, json, time
 
 csv_path = '/Users/young/datahackathon/csv/0424-1430/data1.csv'
 mockup_img_num = 0
 agency_missing = 0
 total = 0
+error_count = 0
 agencies = []
 """
 Open csv file and get URL one by one
@@ -24,6 +25,7 @@ def download(url, id):
 			out_file.write(chunk)        
 		#out_file.write(response.content)
 	del response
+	print url
 	print "img downloaded! id#: %s" % id
 
 
@@ -121,6 +123,7 @@ def take_csv_column(file):
 
 
 def take_csv_img(file, type=None):
+	global total
 	reader = csv.DictReader(file)
 	for row in reader:
 		url = row['URL']
@@ -129,15 +132,76 @@ def take_csv_img(file, type=None):
 		if img_link == None:
 			save_mockup_img(id)
 		else:
-			download(url, id)
-		
+			download(img_link, id)
+		total += 1
+		print "(%d) Saved!" % total
 
+
+def get_coor(address):
+	global error_count
+	success = False
+	attempts = 0
+	api = 'http://maps.google.com/maps/api/geocode/json?address='
+	
+	while success != True and attempts < 3:
+		attempts += 1
+		r = requests.get(api + address)
+		parsed = json.loads(r.content)
+		try:
+			lat = parsed[u'results'][0][u'geometry'][u'location'][u'lat']
+			lng = parsed[u'results'][0][u'geometry'][u'location'][u'lng']
+		except IndexError as e:
+			"""
+			This error is due to too fast requests from Google maps api.
+			Rest for two seconds and repeat twice more if failed.
+			"""
+			print "(%d) Error getting geocoordinates: %s" % (attempts, e)
+			time.sleep(2)
+			if attempts < 2:
+				continue
+			else:
+				error_count += 1
+				print "(%d) 3 Attempts all failed" % (error_count)
+				print address
+				## If failed three times, add a mock up coordinate
+				return (0, 0)
+		else:
+			success = True
+			print (lat, lng)
+			return (lat, lng)
+
+
+def edit_coor(row, coor):
+	new = row[:]
+	new[-3:-1] = coor
+	return new
+
+
+def take_csv_coor(file):
+	global total
+	data = get_csv('data_agency.csv')
+	new = []
+	
+	for row in data:	
+		if row[-3] == '0':
+			address = row[3]
+			coor = get_coor(address)
+			row = edit_coor(row, coor)
+
+		new.append(row)
+		total += 1
+		print "(%d) Row!" % total
+
+	with open('data_all.csv', 'w') as f:
+		writer = csv.writer(f)
+		writer.writerows(new)
 
 
 if __name__ == '__main__':
 	with open(csv_path) as f:
-		#take_csv(f)
-		take_csv_column(f)
+		#take_csv_img(f)
+		#take_csv_column(f)
+		take_csv_coor(f)
 
 	print "Total mockup_img: %d" % mockup_img_num
 
