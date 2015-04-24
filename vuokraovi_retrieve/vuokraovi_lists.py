@@ -208,7 +208,7 @@ def compress_description(desc):
 		comp_desc.append(merged)
 
 	return comp_desc	
-
+# Maskinbyggarvägen 2, 02150 Esbo, Finland
 if __name__ == '__main__':
 	print "Scraping starts!"
 
