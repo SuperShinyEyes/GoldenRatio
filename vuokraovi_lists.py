@@ -197,9 +197,16 @@ def write_csv(suffix):
 
 def compress_description(desc):
 	comp_desc = []
-	for i in range(0, len(desc), 2):
-		merged = desc[i] + ' | ' + desc[i+1]
+	i = 0
+	while i < len(desc):
+		if i+1 < len(desc) and desc[i+1][-1] != '2':
+			merged = desc[i] + ' | ' + desc[i+1]
+			i += 2
+		else:
+			merged = desc[i]
+			i += 1
 		comp_desc.append(merged)
+
 	return comp_desc	
 
 if __name__ == '__main__':
@@ -234,6 +241,7 @@ if __name__ == '__main__':
 		#print "new"
 		#print new_addresses 
 		if(addresses[-len(new_addresses):] == new_addresses):
+		#if page_index > 6:
 			#write_csv(str(page_index / 20 + 1))
 			write_csv(str(1))
 			print "Ended the end of the database!"
@@ -258,8 +266,9 @@ if __name__ == '__main__':
 			del links[:]
 			del ids[:]
 		'''
-		page_index += 1
 		print "Scraped page", page_index
+		page_index += 1
+		
 
 
 
