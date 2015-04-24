@@ -1,7 +1,7 @@
 from lxml import html
 import requests, csv, os, shutil
 
-csv_path = '/Users/young/CODE projects/datahackathon/csv/0424-1430/data1.csv'
+csv_path = '~/datahackathon/csv/0424-1430/data1.csv'
 mockup_img_num = 0
 agency_missing = 0
 agencies = []
@@ -15,7 +15,7 @@ Save the image and the name should be 'id#.jpg'
 """
 def download(url, id):
 	chunk_size = 10
-	file_path = '/Users/young/CODE projects/datahackathon/img/' + id + '.jpg'
+	file_path = '~/datahackathon/img/' + id + '.jpg'
 	response = requests.get(url, stream=True)
 
 	with open(file_path, 'wb') as out_file:
@@ -28,8 +28,8 @@ def download(url, id):
 
 def save_mockup_img(id):
 	global mockup_img_num
-	mockup_img = '/Users/young/CODE projects/datahackathon/house.png'
-	img_dir = '/Users/young/CODE projects/datahackathon/img/'
+	mockup_img = '~/datahackathon/house.png'
+	img_dir = '~/datahackathon/img/'
 
 	shutil.copy(mockup_img, img_dir + id + '.jpg')
 	mockup_img_num += 1
