@@ -1,11 +1,11 @@
-import requests, csv, yaml, json
+import requests, csv, yaml, json, csv_lab
 
-csv_path = '/Users/young/datahackathon/vuokraovi_retrieve/data_bus_stop.csv'
-new_path = '/Users/young/datahackathon/vuokraovi_retrieve/data_bus_stop_full.csv'
+csv_path = '/bus_stop_None.csv'
+new_path = 'bus_stop_None2.csv'
 DIAMETER = 500    # The unit is Meter
 total = 0
 no_bus_stop = 0
-MOCK_UP = [{'code':'0', 'dist':'0'}]
+MOCK_UP = [{'codeShort':'0', 'dist':'0'}]
 total_rows = []
 '''
 !!!ATTENTION!!!
@@ -16,44 +16,28 @@ example request
 http://api.reittiopas.fi/hsl/prod/?request=stops_area&center_coordinate=24.815548,60.187078&diameter=500&epsg_in=wgs84&epsg_out=wgs84&user=chendurkumar&pass=manimangai
 
 Result:
-lines: [
-"1075 1:Puistolan asema",
-"1075A 2:Siltamäki",
-"1076B 2:Puistola"
-],
-There are four buses at the stop.
-Save only the first number before the whitespace
+[{"code":"2222225","name":"Innopoli, Laituri 2","city":"Espoo","coords":"24.813107985823,60.186165322784","dist":169,"codeShort":"E2220","address":"Tekniikantie"},
+{"code":"2222226","name":"Innopoli, Laituri 1","city":"Espoo","coords":"24.81426713798,60.184937496573","dist":249,"codeShort":"E2221","address":"Tekniikantie"}]
 
-http://api.reittiopas.fi/hsl/prod/?request=stops_area&center_coordinate=24.945793,60.1907603&diameter=500&epsg_in=wgs84&epsg_out=wgs84&user=chendurkumar&pass=manimangai
+There are two bus stops nearby.
+
+Save both "code" and "codeShort", and distance.
+
+60.2169587
+http://api.reittiopas.fi/hsl/prod/?request=stop&user=claudio&pass=claudio&format=txt&code=1411101&format=json
 '''
 
-def get_csv(name):
-	with open(name) as f:
-		d = [i for i in csv.reader(f)]
-	return d
 
-
-def write_to_text(url, e):
-	with open('output2.txt', 'a') as f:
-		f.write(url)
-		f.write("\n(%d) Agency name missing: %s\n" % (agency_missing, e))
-
-def unicode_to_str(response):
-	dump = json.dumps(response.json())
-	return yaml.safe_load(dump)
-
-
-def get_bus_stop(lng, lat):
+def get_buses(bus_stop_code):
 	'''
 	Search in the radius of 500 meters.
 	'''
 	global no_bus_stop
 	#print "lng: %s, lat: %s" % (lng, lat)
 
-	api_prefix = 'http://api.reittiopas.fi/hsl/prod/?request=stops_area&center_coordinate='
-	coord = lng + ',' + lat
-	api_suffix = '&diameter=' + str(DIAMETER) + '&epsg_in=wgs84&epsg_out=wgs84&user=chendurkumar&pass=manimangai'
-	api = api_prefix + coord + api_suffix
+	api_prefix = 'http://api.reittiopas.fi/hsl/prod/?request=stop&user=claudio&pass=claudio&format=txt&code='
+	api_suffix = '&format=json'
+	api = api_prefix + bus_stop_code + api_suffix
 	r = requests.get(api)
 	try:
 		r.json()
@@ -62,22 +46,21 @@ def get_bus_stop(lng, lat):
 		print "(%d) There is no bus stop with in %d meters of diameter at %s, %s" % (no_bus_stop, DIAMETER, lng, lat)
 		return MOCK_UP
 	else:
-		bus_stops = unicode_to_str(r)
-		return bus_stops
+		buses = csv_lab.unicode_to_str(r)[0]['lines']
+		buses = [csv_lab.strip_string(bus) for bus in buses]
+		buses = [bus.split()[0] for bus in buses]
+		return buses
 
 def scrape(row, path):
-	
-	lng = row[6]
-	lat = row[5]
-	id = row[0]
-	bus_stops = get_bus_stop(lng, lat)
+	bus_stop_code = row[:-3]
+	buses = get_bus_stop(bus_stop_code)
 	
 	## Duplicate the row as many as the number of bus stops
-	new = [row[:] for __ in range(len(bus_stops))]
+	new = [row[:] for __ in range(len(buses))]
 	
-	for index, stop in enumerate(bus_stops):
-		new[index][-2] = stop['code']
-		new[index][-1] = stop['dist']
+	for index, bus in enumerate(buses):
+		new[index][-1] = bus
+
 	return new
 
 
@@ -88,11 +71,11 @@ def write_csv(data, path):
 	print "!!!DONE!!!"
 
 
-def take_csv(file):
+def take_csv(list):
 	global total, rows
 	
-	for i in range(len(file)):
-		row = file[i]
+	for i in range(len(list)):
+		row = list[i]
 		if row[-1] == "None":    # dist
 			print "go scraping"
 			row = scrape(row, new_path)
@@ -105,12 +88,11 @@ def take_csv(file):
 		if total % 10 == 0:
 			print "(%d) Done." % total
 	
-	write_csv(total_rows, new_path)
+	csv_lab.write_list_to_csv(total_rows, new_path)
 
 
-with open(csv_path) as f:
-	d = [i for i in csv.reader(f)]
-	take_csv(d)
+csv_list = csv_lab.csv_to_list(csv_path)
+take_csv(csv_list)
 
 
 

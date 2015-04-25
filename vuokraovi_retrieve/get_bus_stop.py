@@ -101,11 +101,7 @@ def write_csv(data, path):
 def take_csv(file):
 	global total, rows
 	
-<<<<<<< HEAD
-	for i in range(7950, len(file)):
-=======
 	for i in range(len(file)):
->>>>>>> 946609f9a6abc4eae55a88355ca530dd4169a618
 		row = file[i]
 		if row[-1] == "None":    # dist
 			print "go scraping"

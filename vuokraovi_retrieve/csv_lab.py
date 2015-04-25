@@ -1,4 +1,4 @@
-import requests, csv, yaml, json
+import requests, csv, yaml, json, unicodedata
 
 
 def unicode_to_str(response):

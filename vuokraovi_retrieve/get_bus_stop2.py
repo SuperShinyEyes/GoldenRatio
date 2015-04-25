@@ -1,7 +1,7 @@
 import requests, csv, yaml, json, csv_lab
 
-csv_path = '/Users/young/datahackathon/vuokraovi_retrieve/bus_stop_None.csv'
-new_path = '/Users/young/datahackathon/vuokraovi_retrieve/bus_stop_None2.csv'
+csv_path = 'mini2.csv'
+new_path = 'img_url3.csv'
 DIAMETER = 500    # The unit is Meter
 total = 0
 no_bus_stop = 0
@@ -28,15 +28,6 @@ Save both "code" and "codeShort", and distance.
 http://api.reittiopas.fi/hsl/prod/?request=stops_area&center_coordinate=24.945793,60.1907603&diameter=500&epsg_in=wgs84&epsg_out=wgs84&user=chendurkumar&pass=manimangai
 '''
 
-def write_to_text(url, e):
-	with open('output2.txt', 'a') as f:
-		f.write(url)
-		f.write("\n(%d) Agency name missing: %s\n" % (agency_missing, e))
-
-def unicode_to_str(response):
-	dump = json.dumps(response.json())
-	return yaml.safe_load(dump)
-
 
 def get_bus_stop(lng, lat):
 	'''
@@ -57,13 +48,13 @@ def get_bus_stop(lng, lat):
 		print "(%d) There is no bus stop with in %d meters of diameter at %s, %s" % (no_bus_stop, DIAMETER, lng, lat)
 		return MOCK_UP
 	else:
-		bus_stops = unicode_to_str(r)
+		bus_stops = csv_lab.unicode_to_str(r)
 		return bus_stops
 
 def scrape(row, path):
 	
-	lng = row[6]
-	lat = row[5]
+	lng = row[7]
+	lat = row[6]
 	id = row[0]
 	bus_stops = get_bus_stop(lng, lat)
 	
@@ -71,7 +62,7 @@ def scrape(row, path):
 	new = [row[:] for __ in range(len(bus_stops))]
 	
 	for index, stop in enumerate(bus_stops):
-		new[index][-2] = stop['code']
+		new[index][-2] = stop['codeShort']
 		new[index][-1] = stop['dist']
 	return new
 
@@ -83,12 +74,12 @@ def write_csv(data, path):
 	print "!!!DONE!!!"
 
 
-def take_csv(file):
+def take_csv(list):
 	global total, rows
 	
-	for i in range(7950, len(file)):
-		row = file[i]
-		if row[-1] == "None":    # dist
+	for i in range(len(list)):
+		row = list[i]
+		if row[-1] == "None" && total < 5:    # dist
 			print "go scraping"
 			row = scrape(row, new_path)
 		else:
@@ -99,13 +90,13 @@ def take_csv(file):
 		total += 1
 		if total % 10 == 0:
 			print "(%d) Done." % total
+
 	
 	write_csv(total_rows, new_path)
 
 
-with open(csv_path) as f:
-	d = [i for i in csv.reader(f)]
-	take_csv(d)
+csv_list = csv_lab.csv_to_list(csv_path)
+take_csv(csv_list)
 
 
 
