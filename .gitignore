@@ -1,1 +1,6 @@
 *.pyc
+img/
+*.zip
+*.jpg
+LVM.xml
+
