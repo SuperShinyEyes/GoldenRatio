@@ -79,7 +79,7 @@ def take_csv(list):
 	
 	for i in range(len(list)):
 		row = list[i]
-		if row[-1] == "None" && total < 5:    # dist
+		if row[-1] == "None" and total < 5:    # dist
 			print "go scraping"
 			row = scrape(row, new_path)
 		else:
