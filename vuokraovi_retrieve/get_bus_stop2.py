@@ -38,7 +38,7 @@ def get_bus_stop(lng, lat):
 
 	api_prefix = 'http://api.reittiopas.fi/hsl/prod/?request=stops_area&center_coordinate='
 	coord = lng + ',' + lat
-	api_suffix = '&diameter=' + str(DIAMETER) + '&epsg_in=wgs84&epsg_out=wgs84&user=claudio&pass=claudio'
+	api_suffix = '&diameter=' + str(DIAMETER) + '&epsg_in=wgs84&epsg_out=wgs84&user=seyoung2&pass=seyoung2'
 	api = api_prefix + coord + api_suffix
 	r = requests.get(api)
 	try:
