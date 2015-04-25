@@ -1,7 +1,12 @@
 import requests, csv, yaml, json
 
+<<<<<<< HEAD
 csv_path = '/Users/young/datahackathon/vuokraovi_retrieve/bus_stop_None.csv'
 new_path = '/Users/young/datahackathon/vuokraovi_retrieve/bus_stop_None2.csv'
+=======
+csv_path = '/Users/young/datahackathon/vuokraovi_retrieve/data_bus_stop.csv'
+new_path = '/Users/young/datahackathon/vuokraovi_retrieve/data_bus_stop_full.csv'
+>>>>>>> 946609f9a6abc4eae55a88355ca530dd4169a618
 DIAMETER = 500    # The unit is Meter
 total = 0
 no_bus_stop = 0
@@ -53,7 +58,11 @@ def get_bus_stop(lng, lat):
 
 	api_prefix = 'http://api.reittiopas.fi/hsl/prod/?request=stops_area&center_coordinate='
 	coord = lng + ',' + lat
+<<<<<<< HEAD
 	api_suffix = '&diameter=' + str(DIAMETER) + '&epsg_in=wgs84&epsg_out=wgs84&user=claudio&pass=claudio'
+=======
+	api_suffix = '&diameter=' + str(DIAMETER) + '&epsg_in=wgs84&epsg_out=wgs84&user=chendurkumar&pass=manimangai'
+>>>>>>> 946609f9a6abc4eae55a88355ca530dd4169a618
 	api = api_prefix + coord + api_suffix
 	r = requests.get(api)
 	try:
@@ -92,7 +101,11 @@ def write_csv(data, path):
 def take_csv(file):
 	global total, rows
 	
+<<<<<<< HEAD
 	for i in range(7950, len(file)):
+=======
+	for i in range(len(file)):
+>>>>>>> 946609f9a6abc4eae55a88355ca530dd4169a618
 		row = file[i]
 		if row[-1] == "None":    # dist
 			print "go scraping"
