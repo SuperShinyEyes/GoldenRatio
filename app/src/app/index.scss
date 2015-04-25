@@ -1,0 +1,126 @@
+$darkBlue: #225378;
+$mediumBlue: #1695A3;
+$lightBlue: #ACF0F2;
+$light: #F3FFE2;
+$orange: #EB7F00;
+
+body, html, .ui-view > div, .ui-view {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background: $darkBlue;
+    min-height: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    h1 {
+        color: rgb(230, 230, 230);
+    }
+    h4 {
+        color: rgb(230, 230, 230);
+    }
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+}
+.content {
+}
+.content {
+    height: 100%;
+    .ads {
+        background-color: $lightBlue;
+        height: 100%;
+        width: 30%;
+        float: left;
+        padding-top: 100px;
+        overflow: scroll;
+        .apartment-image {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        h3 {
+            margin: 0px;
+            padding: 0px;
+            padding-left: 20px;
+            padding-bottom: 40px;
+        }
+    }
+    .map {
+        background-color: $mediumBlue;
+        padding-top: 100px;
+        width: 70%;
+        height: 100%;
+        float: left;
+        > ui-gmap-google-map {
+            width: 100%; height:100%;
+        }
+        .angular-google-map-container,
+        .angular-google-map {
+            width: 100%;
+            height: 100%;
+            min-height: 300px;
+        }
+    }
+}
+.map {
+    position: relative;
+    .overlays {
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        a {
+            float: left;
+            display: block;
+            width: 60px;
+            height: 60px;
+            background-color: lightgray;
+            margin-right: 10px;
+            overflow: hidden;
+            background-size: cover;
+            opacity: 0.3;
+            &.active {
+                opacity: 1;
+                border: 1px rgb(30, 30, 30) solid;
+            }
+            &[data-id="graffiti_removal"] {
+                background-image: url(/assets/images/backgrounds/graffiti.jpg);
+            }
+            &[data-id="vandalism"] {
+                background-image: url(/assets/images/backgrounds/vandalism.jpg);
+            }
+            &[data-id="traffic_signs"] {
+                background-image: url(/assets/images/backgrounds/traffic.jpg);
+            }
+            &[data-id="sanitation_violation"] {
+                background-image: url(/assets/images/backgrounds/trash.jpg);
+            }
+            &[data-id="playground_sport-parks"] {
+                background-image: url(/assets/images/backgrounds/playground.jpg);
+            }
+            &[data-id="patholes"] {
+                background-image: url(/assets/images/backgrounds/pothole.jpg);
+            }
+            &[data-id="parks"] {
+                background-image: url(/assets/images/backgrounds/park.jpg);
+            }
+            &[data-id="other"] {
+            }
+            &[data-id="info_signs"] {
+                background-image: url(/assets/images/backgrounds/info.jpg);
+            }
+            &[data-id="forest"] {
+                background-image: url(/assets/images/backgrounds/forest.jpg);
+            }
+        }
+    }
+}
+
+
+/* Do not remove this comments bellow. It's the markers used by gulp-inject to inject
+   all your sass files automatically */
+// injector
+// endinjector

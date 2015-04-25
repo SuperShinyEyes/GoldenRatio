@@ -1,0 +1,43 @@
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h1>GoldenRatio</h1>
+      </div>
+      <div class="col-md-3">
+        <h4>Destination</h4>
+        <select class="select">
+          <option>Aalto University</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <h4>Number of stops</h4>
+        <slider ng-model-options="{ debounce: 300 }" ng-model="maxNumberOfStops" step="1" max="20" min="0"></slider>
+      </div>
+      <div class="col-md-3">
+        <h4>Walking distance</h4>
+        <slider ng-model-options="{ debounce: 300 }" ng-model="maxWalkingDistance" step="100" max="1000" min="0"></slider>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="content">
+  <div class="ads">
+    <div ng-repeat="apartment in apartments">
+      <div class="apartment">
+        <img class="apartment-image" ng-src="{{ apartment.image }}" />
+        <h3>{{ apartment.address }}</h3>
+      </div>
+    </div>
+  </div>
+  <div class="map">
+    <!--
+    <ui-gmap-google-map center='map.center' zoom='map.zoom' style="height: 100%;">
+      <heatmap-layer data="taxiData" max-intensity="10" radius="20" opacity="0.9"></heatmap-layer>
+    </ui-gmap-google-map>-->
+    <leaflet center="map.center" layers="map.layers" markers="map.markers" width="100%" height="100%"></leaflet>
+    <div class="overlays">
+      <a ng-repeat="overlay in overlays" data-id="{{ overlay.id }}" ng-class="{'active': activateOverlays.indexOf(overlay.id) !== -1}" ng-click="activateOverlay(overlay.id)" class="overlay" tooltip="{{ overlay.label }}" title="{{ overlay.label }}" href="#"></a>
+    </div>
+  </div>
+</div>
