@@ -1,0 +1,8 @@
+6018371
+2497577
+wgs_coords
+http://api.reittiopas.fi/hsl/prod/?request=stops_area&center_coordinate=6018371,2497577&diameter=500&user=chendurkumar&pass=manimangai
+
+http://api.reittiopas.fi/hsl/prod/?request=stops_area&wgs_coords=24.9757756,60.183715&diameter=500&user=chendurkumar&pass=manimangai
+
+http://api.reittiopas.fi/hsl/prod/?request=stops_area&center_coordinate=24.815548,60.187078&diameter=500&epsg_in=wgs84&epsg_out=wgs84&user=chendurkumar&pass=manimangai
