@@ -1,7 +1,7 @@
-import csv
+import csv, csv_lab
 
-original_path = '/Users/young/datahackathon/vuokraovi_retrieve/data_bus_stop.csv'
-new_path = '/Users/young/datahackathon/vuokraovi_retrieve/mini.csv'
+original_path = 'img_url.csv'
+new_path = 'mini.csv'
 
 def cut(row_len):
 
@@ -12,5 +12,7 @@ def cut(row_len):
 			writer = csv.writer(new_file)
 			writer.writerows(original[:row_len+1])
 
-cut(10)
+#cut(10)
 
+
+csv_lab.cut(original_path, new_path, 0, 10)
