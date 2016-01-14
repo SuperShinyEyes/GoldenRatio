@@ -1,11 +1,13 @@
-# vuokraovi_retrieve
-Python codes to scrape vuokraovi.com
+# GoldenRatio for Aalto Data Science Hackathon 2015
+Golden Ratio is a smart real estate web app. It enables you to search apartments in relation to your school or work places. We used open HSL data and some private real estate data. Please check the demo video at https://www.youtube.com/watch?v=p9yMRqvzQqw
 
-# csv
-Real Estate data
-Foler name format: MMDD-HHMM
-Use the newest csv
 
-# json
-old Real Estate data
-Don't use it. It was for development
+## Contributors
+* Seyoung Park(web scraping)
+* Teemu Kokkonen(front-end)
+* Kumar Subramanian(back-end)
+* Kseniia Belorustceva(data analysis)
+* Claudio Baldassarre(chief)
+
+## License
+MIT License

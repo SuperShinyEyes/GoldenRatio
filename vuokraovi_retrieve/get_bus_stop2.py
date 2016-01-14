@@ -1,7 +1,8 @@
 import requests, csv, yaml, json, csv_lab
 
-csv_path = 'mini2.csv'
-new_path = 'img_url3.csv'
+csv_path = 'data8.csv'
+new_path = 'data9.csv'
+another_path = '/Users/young/Documents/datahackathon_file/bus_stop/' + new_path
 DIAMETER = 500    # The unit is Meter
 total = 0
 no_bus_stop = 0
@@ -25,9 +26,9 @@ Save both "code" and "codeShort", and distance.
 
 60.2169587
 
-http://api.reittiopas.fi/hsl/prod/?request=stops_area&center_coordinate=24.945793,60.1907603&diameter=500&epsg_in=wgs84&epsg_out=wgs84&user=chendurkumar&pass=manimangai
+http://api.reittiopas.fi/hsl/prod/?request=stops_area&center_coordinate=24.8214301,60.1869654&diameter=500&epsg_in=wgs84&epsg_out=wgs84&user=seyoung2&pass=seyoung2
 '''
-
+24.8214301
 
 def get_bus_stop(lng, lat):
 	'''
@@ -75,11 +76,11 @@ def write_csv(data, path):
 
 
 def take_csv(list):
-	global total, rows
+	global total
 	
 	for i in range(len(list)):
 		row = list[i]
-		if row[-1] == "None" and total < 5:    # dist
+		if row[-1] == "None" and total < 8000:    # dist
 			print "go scraping"
 			row = scrape(row, new_path)
 		else:
@@ -89,10 +90,11 @@ def take_csv(list):
 		
 		total += 1
 		if total % 10 == 0:
-			print "(%d) Done." % total
+			print "(%d) Working." % total
 
 	
 	write_csv(total_rows, new_path)
+	write_csv(total_rows, another_path)
 
 
 csv_list = csv_lab.csv_to_list(csv_path)
@@ -100,7 +102,9 @@ take_csv(csv_list)
 
 
 
-
+"""
+http://api.reittiopas.fi/hsl/prod/?request=stops_area&center_coordinate=24.8096488,60.2169587&diameter=500&epsg_in=wgs84&epsg_out=wgs84&user=seyoung2&pass=seyoung2
+"""
 
 
 

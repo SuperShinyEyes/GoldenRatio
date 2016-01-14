@@ -84,6 +84,8 @@ def process_string_list(raw, type=None):
 
 	return processed
 
+http://maps.google.com/maps/api/geocode/json?address=Konemiehentie 2 02150 Espoo
+
 def get_geocoor(address):
 	global geocoor, error_count, getcoord_retrieve_failed
 	success = False

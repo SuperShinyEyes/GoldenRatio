@@ -1,6 +1,6 @@
 import csv, csv_lab
 
-original_path = 'img_url.csv'
+original_path = 'data1.csv'
 new_path = 'mini.csv'
 
 def cut(row_len):
