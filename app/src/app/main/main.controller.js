@@ -113,16 +113,16 @@ class MainCtrl {
 
     $scope.$watchGroup(['maxNumberOfStops', 'maxWalkingDistance'], function(newValues, oldValues, scope) {
       ApartmentService.getAds($scope.maxNumberOfStops, $scope.maxWalkingDistance).then(function(response){
-        $scope.apartments = response.data;
+        $scope.apartments = _.uniq(response.data, 'url');
       });
     });
     $scope.$watch('apartments', function(){
       $scope.map.markers = {};
       _.forEach($scope.apartments, function(x){
-        $scope.map.markers['marker'+x.id] = {
-          lat: x.lat,
-          lng: x.lng,
-          message: x.description
+        $scope.map.markers['marker'+_.last(x.url.split('/'))] = {
+          lat: parseFloat(x.lat),
+          lng: parseFloat(x.lng),
+          message: x.address + ' (bus '+x.bus_line.slice(1)+')'
         };
       });
     }, true);

@@ -5,7 +5,7 @@ class OverlayService {
         this.$http = $http;
     }
     getList() {
-        return this.$http.get('http://jsonp.afeld.me', {
+        return this.$http.get('http://aww.fi:4000', {
             cache: true,
             params: {
                 url: 'http://app.gradesystem.eu:9090/service/prod/query/listoverlays/results.json'
@@ -13,7 +13,7 @@ class OverlayService {
         });
     }
     get(id) {
-        return this.$http.get('http://jsonp.afeld.me', {
+        return this.$http.get('http://aww.fi:4000', {
             cache: true,
             params: {
                 url: 'http://app.gradesystem.eu:9090/service/prod/query/getoverlay/results.json?id=' + id
